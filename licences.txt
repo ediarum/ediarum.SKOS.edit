@@ -1,0 +1,46 @@
+Berlin-Brandenburgische Akademie der Wissenschaften 
+TELOTA - The electronic Life of the Academy
+http://www.bbaw.de/telota telota@bbaw.de
+
+------------------------------------------------------------------------------------------------
+
+ediarum.SKOS.edit
+Digitale Arbeitsumgebung für die Eingabe und Bearbeitung von SKOS basierten Thesauri
+Entstanden im Rahmen des DFG-Projektes "Schleiermachers Ästhetikvorlesungen im Kontext. Zur Reflexion und Anwendung digitaler Methoden in der Konstellationsforschung".
+
+Framework (Dokumenttyp Zuordnung) für Oxygen XML 
+http://telota.bbaw.de/ediarum/skos/edit/update.xml
+
+Entwicklung:
+
+Lou Klappenbach
+
+Wissenschaftlicher Mitarbeiter des DFG-Projektes:
+
+Dr. Holden Kelm
+
+Koordination:
+
+Dr. Frederike Neuber
+
+
+------------------------------------------------------------------------------------------------
+
+1. Licences
+
+ediarum.SKOS.edit is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+ediarum.SKOS.edit is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with ediarum.SKOS.edit. If not, see http://www.gnu.org/licenses/.
+
+2. Third party licences
+
+ediarum.SKOS.edit includes and makes use of software from third parties, which are licensed seperately.
+
+2.1 Icons by Fontawesome
+
+All Icons used within the framework are derivatives of Fontawesome Icons. They are dowloaded from https://fontawesome.com/v5.15/icons?d=gallery&p=2 and are modified by Lou Klappenbach. All Icons are licensed under the Creative Commons Attribution 4.0 International license, https://creativecommons.org/licenses/by/4.0/.
+
+2.2 Font Linux Libertine
+
+ediarum.SKOS.edit contains also the fonts Linux Libertine and Biolinum. You will find their respective licences in the font directory.

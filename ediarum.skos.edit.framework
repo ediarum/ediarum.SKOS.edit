@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialized xml:space="preserve">
+	<serializableOrderedMap>
+		<entry>
+			<String>document.types</String>
+			<documentTypeDescriptor-array>
+				<documentTypeDescriptor>
+					<field name="webResources">
+						<null/>
+					</field>
+					<field name="extensionPatch">
+						<null/>
+					</field>
+					<field name="name">
+						<String>ediarum.SKOS.edit</String>
+					</field>
+					<field name="schemaDescriptor">
+						<docTypeSchema>
+							<field name="type">
+								<Integer>4</Integer>
+							</field>
+							<field name="uri">
+								<String>${framework}/schemata/skos.rng</String>
+							</field>
+						</docTypeSchema>
+					</field>
+					<field name="classpath">
+						<String-array>
+							<String>${framework}/ediarum.jar</String>
+						</String-array>
+					</field>
+					<field name="parentClassLoaderID">
+						<null/>
+					</field>
+					<field name="authorExtensionDescriptor">
+						<authorExtension>
+							<field name="cssDescriptors">
+								<cssFile-array>
+									<cssFile>
+										<field name="href">
+											<String>${framework}/css/standard.css</String>
+										</field>
+										<field name="title">
+											<String>standard</String>
+										</field>
+										<field name="alternate">
+											<Boolean>false</Boolean>
+										</field>
+									</cssFile>
+									<cssFile>
+										<field name="href">
+											<String>${framework}/css/links.css</String>
+										</field>
+										<field name="title">
+											<String>+ Links</String>
+										</field>
+										<field name="alternate">
+											<Boolean>true</Boolean>
+										</field>
+									</cssFile>
+									<cssFile>
+										<field name="href">
+											<String>${framework}/css/skoselements.css</String>
+										</field>
+										<field name="title">
+											<String>+ SKOS Elemente</String>
+										</field>
+										<field name="alternate">
+											<Boolean>true</Boolean>
+										</field>
+									</cssFile>
+								</cssFile-array>
+							</field>
+							<field name="mergeCSSsFromDocument">
+								<Boolean>true</Boolean>
+							</field>
+							<field name="multipleAlternateSelectionEnabled">
+								<Boolean>true</Boolean>
+							</field>
+							<field name="actionDescriptors">
+								<action-array>
+									<action>
+										<field name="id">
+											<String>ConceptScheme_hasTopConcept</String>
+										</field>
+										<field name="name">
+											<String>Konzeptschema ein Hauptkonzept hinzufügen (skos:hasTopConcept)</String>
+										</field>
+										<field name="description">
+											<String>Konzeptschema ein Hauptkonzept hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/conceptScheme_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/conceptScheme_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:ConceptScheme</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_api_1
+ConceptScheme_hasTopConcept_1</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_definition</String>
+										</field>
+										<field name="name">
+											<String>Definition hinzufügen (skos:definition)</String>
+										</field>
+										<field name="description">
+											<String>Definition des Konzeptes eingeben.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/definition_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/definition_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept[not(./skos:definition)]</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:definition xml:lang="de">${ask('Definition eingeben')}&lt;/skos:definition> 
+</String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection[not(./skos:definition)]</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:definition xml:lang="de">${ask('Definition eingeben')}&lt;/skos:definition></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_narrower_1</String>
+										</field>
+										<field name="name">
+											<String>Unterkonzept zuweisen (skos:narrower)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein Unterkonzept zuweisen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/narrower_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/narrower_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/concepts.xml</String>
+															</entry>
+															<entry>
+																<String>element</String>
+																<String>$ITEMS</String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>item rendering</String>
+																<String>$XPATH{/span}</String>
+															</entry>
+															<entry>
+																<String>item separator</String>
+																<String> </String>
+															</entry>
+															<entry>
+																<String>item variable</String>
+																<String>&lt;skos:narrower rdf:resource="$XPATH{@xml:id}"/></String>
+															</entry>
+															<entry>
+																<String>namespaces</String>
+																<String>tei:http://www.tei-c.org/ns/1.0</String>
+															</entry>
+															<entry>
+																<String>node</String>
+																<String>//tei:item</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.RegisterInsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_new_entry</String>
+										</field>
+										<field name="name">
+											<String>Neues Konzept (skos:Concept)</String>
+										</field>
+										<field name="description">
+											<String>Neues Konzept in diesem Thesaurus erstellen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/new_entry_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/new_entry_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String> &lt;skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="${ask('URL des Konzeptschemas eingeben')}/${id}">
+        &lt;rdf:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        &lt;skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">${ask('Bezeichnung (deutsch)')}&lt;/skos:prefLabel>
+ &lt;/skos:Concept></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::rdf:RDF</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String> &lt;skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="${ask('URL des Konzeptschemas eingeben')}/${id}">
+        &lt;rdf:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        &lt;skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">${ask('Bezeichnung (deutsch)')}&lt;/skos:prefLabel>
+ &lt;/skos:Concept></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::rdf:RDF</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_inScheme</String>
+										</field>
+										<field name="name">
+											<String>Konzept zu Konzeptschema zuweisen (skos:inScheme)</String>
+										</field>
+										<field name="description">
+											<String>Konzept zu Konzeptschema zuweisen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/conceptScheme_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/conceptScheme_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:inScheme rdf:resource="${ask('URL des Konzeptschemas eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_prefLabel_en</String>
+										</field>
+										<field name="name">
+											<String>Englische bervorzugte Bezeichnung (skos:prefLabel)</String>
+										</field>
+										<field name="description">
+											<String>Englische Bezeichnung hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/label_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/label_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept[not(child::skos:prefLabel[@xml:lang='en'])]</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:prefLabel xml:lang="en">${ask('Englische bevorzugte Bezeichnung eingeben')}&lt;/skos:prefLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept/skos:prefLabel[@xml:lang='de']</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection[not(child::skos:prefLabel[@xml:lang='en'])</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:prefLabel xml:lang="en">${ask('Englische Bezeichnung eingeben')}&lt;/skos:prefLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection/skos:prefLabel[@xml:lang='de']</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_altLabel</String>
+										</field>
+										<field name="name">
+											<String>Alternative Bezeichnung (skos:altLabel)</String>
+										</field>
+										<field name="description">
+											<String>Alternative Bezeichnung hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/label_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/label_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:altLabel xml:lang="${ask('Sprache wählen', combobox, ('de':'deutsch';'en':'englisch';), '')}">${ask('Bezeichnung eingeben')}&lt;/skos:altLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept/skos:prefLabel[position()=last()]</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:altLabel xml:lang="${ask('Sprache wählen', combobox, ('de':'deutsch';'en':'englisch';), '')}">${ask('Bezeichnung eingeben')}&lt;/skos:altLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection/skos:prefLabel[position()=last()]</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_prefLabel_de</String>
+										</field>
+										<field name="name">
+											<String>Deutsche bevorzugte Bezeichnung (skos:prefLabel)</String>
+										</field>
+										<field name="description">
+											<String>Deutsche Bezeichnung hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/label_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/label_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept[not(child::skos:prefLabel[@xml:lang='de'])]</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:prefLabel xml:lang="de">${ask('Deutsche bevorzugte Bezeichnung eingeben')}&lt;/skos:prefLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as first child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection[not(child::skos:prefLabel[@xml:lang='de'])]</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:prefLabel xml:lang="de">${ask('Deutsche Bezeichnung eingeben')}&lt;/skos:prefLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_broader</String>
+										</field>
+										<field name="name">
+											<String>Überkonzept zuweisen (skos:broader)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein Überkonzept zuweisen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/broader_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/broader_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_api_1
+Concept_broader_1</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_related</String>
+										</field>
+										<field name="name">
+											<String>Relation anlegen (skos:related)</String>
+										</field>
+										<field name="description">
+											<String>Assoziative Relation zwischen Konzepten anlegen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/beziehungen_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/beziehungen_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_api_1
+Concept_related_1</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_inferences</String>
+										</field>
+										<field name="name">
+											<String>Inferenzen aktualisieren</String>
+										</field>
+										<field name="description">
+											<String>Inferenzen der Konzepte des Thesaurus aktualisieren.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/inference_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/inference_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_inferences_1
+general_inferences_2</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_inferences_1</String>
+										</field>
+										<field name="name">
+											<String>Inferenzen aktualisieren</String>
+										</field>
+										<field name="description">
+											<String>Inferenzen der Konzepte des Thesaurus aktualisieren.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/inference_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/inference_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>action</String>
+																<String>Replace</String>
+															</entry>
+															<entry>
+																<String>script</String>
+																<String>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    version="2.0">
+    &lt;xsl:import href="resources/inference.xsl"/>
+&lt;/xsl:stylesheet></String>
+															</entry>
+															<entry>
+																<String>sourceLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+															<entry>
+																<String>targetLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.XSLTOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_inferences_2</String>
+										</field>
+										<field name="name">
+											<String>Inferenzen aktualisieren</String>
+										</field>
+										<field name="description">
+											<String>Inferenzen der Konzepte des Thesaurus aktualisieren.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/inference_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/inference_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>action</String>
+																<String>Replace</String>
+															</entry>
+															<entry>
+																<String>script</String>
+																<String>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    version="2.0">
+    &lt;xsl:import href="resources/inference-removeDublicates.xsl"/>
+&lt;/xsl:stylesheet></String>
+															</entry>
+															<entry>
+																<String>sourceLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+															<entry>
+																<String>targetLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.XSLTOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_README</String>
+										</field>
+										<field name="name">
+											<String>README öffnen</String>
+										</field>
+										<field name="description">
+											<String>README zur Dokumentation und Setup des Frameworks öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/skos_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/skos_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${ediarum_skos_documentation}</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.OpenFileOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>website</String>
+										</field>
+										<field name="name">
+											<String>Webseite öffnen</String>
+										</field>
+										<field name="description">
+											<String>Webseite des Thesaurus öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/link_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/link.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${ask('URL zur Website eingeben')}</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.OpenFileOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_topConceptOf</String>
+										</field>
+										<field name="name">
+											<String>Konzept als Hauptkonzept annotieren (skos:topConceptOf)</String>
+										</field>
+										<field name="description">
+											<String>Konzept als Hauptkonzept eines Konzeptschema ausweisen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/conceptScheme_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/conceptScheme_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:topConceptOf rdf:resource="${ask('URL des Konzeptschemas eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_new_collection</String>
+										</field>
+										<field name="name">
+											<String>Neue Gruppe (skos:Collection)</String>
+										</field>
+										<field name="description">
+											<String>Neue Gruppe in diesem Thesaurus erstellen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/collection_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/collection_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String> &lt;skos:Collection xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="${ask('URL des Konzeptschemas eingeben')}/${id}">
+        &lt;rdf:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+        &lt;skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">${ask('Bezeichnung (deutsch)')}&lt;/skos:prefLabel>
+ &lt;/skos:Collection></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::rdf:RDF</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String> &lt;skos:Collection xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="${ask('URL des Konzeptschemas eingeben')}/${id}">
+        &lt;rdf:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+        &lt;skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">${ask('Bezeichnung (deutsch)')}&lt;/skos:prefLabel>
+ &lt;/skos:Collection></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::rdf:RDF/skos:ConceptScheme</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>After</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Collection_member</String>
+										</field>
+										<field name="name">
+											<String>Gruppe ein Mitglied hinzufügen (skos:member)</String>
+										</field>
+										<field name="description">
+											<String>Der Gruppe ein Mitglied hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/member_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/member_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_api_1
+Collection_member_1</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_new_ConceptScheme</String>
+										</field>
+										<field name="name">
+											<String>Neues Konzeptschema (skos:ConceptScheme)</String>
+										</field>
+										<field name="description">
+											<String>Neues Konzeptschema in diesem Thesaurus erstellen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/conceptScheme_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/conceptScheme_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:ConcepScheme</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String> &lt;skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="{ask('URL des Konzeptschemas eingeben')}">
+        &lt;rdf:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        &lt;skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">${ask('Bezeichnung (deutsch)')}&lt;/skos:prefLabel>
+ &lt;/skos:ConceptScheme></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:ConceptScheme</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::rdf:RDF</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String> &lt;skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="${ask('URL des Konzeptschemas eingeben')}">
+        &lt;rdf:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        &lt;skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">${ask('Bezeichnung (deutsch)')}&lt;/skos:prefLabel>
+ &lt;/skos:ConceptScheme></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::rdf:RDF</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as first child</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_prefLabel</String>
+										</field>
+										<field name="name">
+											<String>Bevorzugte Bezeichnung (skos:prefLabel)</String>
+										</field>
+										<field name="description">
+											<String>Bevorzugte Bezeichnung hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/label_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/label_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:prefLabel xml:lang="${ask('Sprachkürzel der Bezeichnung eingeben (nach ISO 639-2)')}">${ask('Bevorzugte Bezeichnung eingeben')}&lt;/skos:prefLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as first child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:prefLabel xml:lang="${ask('Sprachkürzel der Bezeichnung eingeben (nach ISO 639-2)')}">${ask('Bevorzugte Bezeichnung eingeben')}&lt;/skos:prefLabel></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_closeMatch</String>
+										</field>
+										<field name="name">
+											<String>Konzept ein gleichbedeutendes Konzept zuordnen (skos:closeMatch)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein gleichbedeutendes Konzept zuordnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/sw_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/sw_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:closeMatch rdf:resource="${ask('URL zur externen Ressource eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_exactMatch</String>
+										</field>
+										<field name="name">
+											<String>Konzept ein exakt gleichbedeutendes Konzept zuordnen (skos:exactMatch)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein exakt gleichbedeutendes Konzept zuordnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/sw_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/sw_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:exactMatch rdf:resource="${ask('URL zur externen Ressource eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_narrowMatch</String>
+										</field>
+										<field name="name">
+											<String>Konzept ein externes Unterkonzept zuordnen (skos:narrowMatch)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein externes Unterkonzept zuordnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/sw_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/sw_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:narrowMatch rdf:resource="${ask('URL zur externen Ressource eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_broadMatch</String>
+										</field>
+										<field name="name">
+											<String>Konzept ein externes Überkonzept zuordnen (skos:broadMatch)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein externes Überkonzept zuordnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/sw_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/sw_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:broadMatch rdf:resource="${ask('URL zur externen Ressource eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_relatedMatch</String>
+										</field>
+										<field name="name">
+											<String>Konzept ein externes Konzept als assoziiert zuordnen (skos:relatedMatch)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein externes Konzept als assoziiert zuordnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/sw_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/sw_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;skos:relatedMatch rdf:resource="${ask('URL zur externen Ressource eingeben')}"/></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>schemaAware</String>
+																<String>true</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_website</String>
+										</field>
+										<field name="name">
+											<String>Webansicht öffnen</String>
+										</field>
+										<field name="description">
+											<String>Webansicht des Thesaurus öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/link_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/link.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_website_1
+general_website_2</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_website_1</String>
+										</field>
+										<field name="name">
+											<String>Webansicht öffnen</String>
+										</field>
+										<field name="description">
+											<String>Webansicht des Thesaurus öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/link_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/link.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>action</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>externalParams</String>
+																<String>framework=${framework}</String>
+															</entry>
+															<entry>
+																<String>script</String>
+																<String>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    version="2.0">
+    &lt;xsl:import href="${framework}/resources/website.xsl"/>
+&lt;/xsl:stylesheet></String>
+															</entry>
+															<entry>
+																<String>sourceLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+															<entry>
+																<String>targetLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.XSLTOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_website_2</String>
+										</field>
+										<field name="name">
+											<String>Webansicht öffnen</String>
+										</field>
+										<field name="description">
+											<String>Webansicht des Thesaurus öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/link_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/link.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/website.html</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.OpenFileOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_api_1</String>
+										</field>
+										<field name="name">
+											<String>API abfragen</String>
+										</field>
+										<field name="description">
+											<String>API des Thesaurus abfragen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>action</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>externalParams</String>
+																<String>framework=${framework}</String>
+															</entry>
+															<entry>
+																<String>script</String>
+																<String>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    version="2.0">
+    &lt;xsl:import href="${framework}/resources/apiConcepts.xsl"/>
+&lt;/xsl:stylesheet></String>
+															</entry>
+															<entry>
+																<String>sourceLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+															<entry>
+																<String>targetLocation</String>
+																<String>//rdf:RDF</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.XSLTOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_api_2</String>
+										</field>
+										<field name="name">
+											<String>API öffnen</String>
+										</field>
+										<field name="description">
+											<String>API des Thesaurus öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/concepts.xml</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.OpenFileOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_narrower</String>
+										</field>
+										<field name="name">
+											<String>Unterkonzept zuweisen (skos:narrower)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein Unterkonzept zuweisen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/narrower_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/narrower_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_api_1
+Concept_narrower_1</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_broader_1</String>
+										</field>
+										<field name="name">
+											<String>Überkonzept zuweisen (skos:broader)</String>
+										</field>
+										<field name="description">
+											<String>Konzept ein Überkonzept zuweisen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/broader_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/broader_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/concepts.xml</String>
+															</entry>
+															<entry>
+																<String>element</String>
+																<String>$ITEMS</String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>item rendering</String>
+																<String>$XPATH{/span}</String>
+															</entry>
+															<entry>
+																<String>item separator</String>
+																<String> </String>
+															</entry>
+															<entry>
+																<String>item variable</String>
+																<String>&lt;skos:broader rdf:resource="$XPATH{@xml:id}"/></String>
+															</entry>
+															<entry>
+																<String>namespaces</String>
+																<String>tei:http://www.tei-c.org/ns/1.0</String>
+															</entry>
+															<entry>
+																<String>node</String>
+																<String>//tei:item</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.RegisterInsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Concept_related_1</String>
+										</field>
+										<field name="name">
+											<String>Relation anlegen (skos:related)</String>
+										</field>
+										<field name="description">
+											<String>Assoziative Relation zwischen Konzepten anlegen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/beziehungen_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/beziehungen_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Concept</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/concepts.xml</String>
+															</entry>
+															<entry>
+																<String>element</String>
+																<String>$ITEMS</String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Concept</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>item rendering</String>
+																<String>$XPATH{/span}</String>
+															</entry>
+															<entry>
+																<String>item separator</String>
+																<String> </String>
+															</entry>
+															<entry>
+																<String>item variable</String>
+																<String>&lt;skos:related rdf:resource="$XPATH{@xml:id}"/></String>
+															</entry>
+															<entry>
+																<String>namespaces</String>
+																<String>tei:http://www.tei-c.org/ns/1.0</String>
+															</entry>
+															<entry>
+																<String>node</String>
+																<String>//tei:item</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.RegisterInsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>ConceptScheme_hasTopConcept_1</String>
+										</field>
+										<field name="name">
+											<String>Konzeptschema ein Hauptkonzept hinzufügen (skos:hasTopConcept)</String>
+										</field>
+										<field name="description">
+											<String>Konzeptschema ein Hauptkonzept hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/conceptScheme_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/conceptScheme_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:ConceptScheme</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/concepts.xml</String>
+															</entry>
+															<entry>
+																<String>element</String>
+																<String>$ITEMS</String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:ConceptScheme</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>item rendering</String>
+																<String>$XPATH{/span}</String>
+															</entry>
+															<entry>
+																<String>item separator</String>
+																<String> </String>
+															</entry>
+															<entry>
+																<String>item variable</String>
+																<String>&lt;skos:hasTopConcept rdf:resource="$XPATH{@xml:id}">&lt;/skos:hasTopConcept></String>
+															</entry>
+															<entry>
+																<String>multiple selection</String>
+																<String>false</String>
+															</entry>
+															<entry>
+																<String>namespaces</String>
+																<String>tei:http://www.tei-c.org/ns/1.0</String>
+															</entry>
+															<entry>
+																<String>node</String>
+																<String>//tei:item</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.RegisterInsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>Collection_member_1</String>
+										</field>
+										<field name="name">
+											<String>Gruppe ein Mitglied hinzufügen (skos:member)</String>
+										</field>
+										<field name="description">
+											<String>Der Gruppe ein Mitglied hinzufügen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String>${framework}/css/gfx/member_large.png</String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/css/gfx/member_small.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>ancestor-or-self::skos:Collection</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/concepts.xml</String>
+															</entry>
+															<entry>
+																<String>element</String>
+																<String>$ITEMS</String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>ancestor-or-self::skos:Collection</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+															<entry>
+																<String>item rendering</String>
+																<String>$XPATH{/span}</String>
+															</entry>
+															<entry>
+																<String>item separator</String>
+																<String> </String>
+															</entry>
+															<entry>
+																<String>item variable</String>
+																<String>&lt;skos:member rdf:resource="$XPATH{@xml:id}"/></String>
+															</entry>
+															<entry>
+																<String>namespaces</String>
+																<String>tei:http://www.tei-c.org/ns/1.0</String>
+															</entry>
+															<entry>
+																<String>node</String>
+																<String>//tei:item</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.RegisterInsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_documentation</String>
+										</field>
+										<field name="name">
+											<String>Aktionsübersicht öffnen</String>
+										</field>
+										<field name="description">
+											<String>Übersicht über alle Aktionen zur Dokumentation des Frameworks und Datenmodells öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>actionIDs</String>
+																<String>general_documentation_1
+general_documentation_2</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_documentation_1</String>
+										</field>
+										<field name="name">
+											<String>Aktionsübersicht öffnen</String>
+										</field>
+										<field name="description">
+											<String>Übersicht über alle Aktionen zur Dokumentation des Frameworks und Datenmodells öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>action</String>
+																<String>After</String>
+															</entry>
+															<entry>
+																<String>externalParams</String>
+																<String>framework=${framework}</String>
+															</entry>
+															<entry>
+																<String>script</String>
+																<String>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    version="2.0">
+    &lt;xsl:import href="${framework}/resources/documentation.xsl"/>
+&lt;/xsl:stylesheet></String>
+															</entry>
+															<entry>
+																<String>sourceLocation</String>
+																<String></String>
+															</entry>
+															<entry>
+																<String>targetLocation</String>
+																<String></String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.XSLTOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+									<action>
+										<field name="id">
+											<String>general_documentation_2</String>
+										</field>
+										<field name="name">
+											<String>Aktionsübersicht öffnen</String>
+										</field>
+										<field name="description">
+											<String>Übersicht über alle Aktionen zur Dokumentation des Frameworks und Datenmodells öffnen.</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String></String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String></String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>URL</String>
+																<String>${framework}/resources/documentation.html</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>org.bbaw.telota.ediarum.OpenFileOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
+								</action-array>
+							</field>
+							<field name="menubarDescriptor">
+								<menu>
+									<field name="label">
+										<String>SKOS</String>
+									</field>
+									<field name="accessKey">
+										<String></String>
+									</field>
+									<field name="iconPath">
+										<String>${framework}/css/gfx/skoss_large.png</String>
+									</field>
+									<field name="menuEntriesDescriptorList">
+										<menuEntry-array>
+											<menuItem>
+												<field name="actionID">
+													<String>general_new_entry</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>general_new_ConceptScheme</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>ConceptScheme_hasTopConcept</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_inScheme</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_topConceptOf</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_prefLabel</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_prefLabel_de</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_prefLabel_en</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_altLabel</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_definition</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>general_new_collection</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Collection_member</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_broader</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_narrower</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_related</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_exactMatch</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_closeMatch</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_narrowMatch</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_broadMatch</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>Concept_relatedMatch</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>general_inferences</String>
+												</field>
+											</menuItem>
+											<menuSeparator/>
+											<menuItem>
+												<field name="actionID">
+													<String>general_README</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>general_website</String>
+												</field>
+											</menuItem>
+											<menuItem>
+												<field name="actionID">
+													<String>general_documentation_2</String>
+												</field>
+											</menuItem>
+										</menuEntry-array>
+									</field>
+									<field name="context">
+										<null/>
+									</field>
+								</menu>
+							</field>
+							<field name="popupMenuDescriptor">
+								<menu>
+									<field name="label">
+										<String>Kontextmenü</String>
+									</field>
+									<field name="accessKey">
+										<null/>
+									</field>
+									<field name="iconPath">
+										<null/>
+									</field>
+									<field name="menuEntriesDescriptorList">
+										<menuEntry-array/>
+									</field>
+									<field name="context">
+										<null/>
+									</field>
+								</menu>
+							</field>
+							<field name="toolbarDescriptor">
+								<toolbar>
+									<field name="id">
+										<String>Symbolleiste</String>
+									</field>
+									<field name="type">
+										<Integer>2</Integer>
+									</field>
+									<field name="largeIconPath">
+										<null/>
+									</field>
+									<field name="smallIconPath">
+										<null/>
+									</field>
+									<field name="toolbarEntriesDescriptorList">
+										<toolbarEntry-array>
+											<toolbarItem>
+												<field name="actionID">
+													<String>general_new_entry</String>
+												</field>
+											</toolbarItem>
+											<toolbar>
+												<field name="id">
+													<String>Schema</String>
+												</field>
+												<field name="type">
+													<Integer>3</Integer>
+												</field>
+												<field name="largeIconPath">
+													<String>${framework}/css/gfx/conceptScheme_large.png</String>
+												</field>
+												<field name="smallIconPath">
+													<String>${framework}/css/gfx/conceptScheme_small.png</String>
+												</field>
+												<field name="toolbarEntriesDescriptorList">
+													<toolbarEntry-array>
+														<toolbarItem>
+															<field name="actionID">
+																<String>general_new_ConceptScheme</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>ConceptScheme_hasTopConcept</String>
+															</field>
+														</toolbarItem>
+														<toolbarSeparator/>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_topConceptOf</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_inScheme</String>
+															</field>
+														</toolbarItem>
+													</toolbarEntry-array>
+												</field>
+											</toolbar>
+											<toolbarSeparator/>
+											<toolbar>
+												<field name="id">
+													<String>Labels</String>
+												</field>
+												<field name="type">
+													<Integer>3</Integer>
+												</field>
+												<field name="largeIconPath">
+													<String>${framework}/css/gfx/label_large.png</String>
+												</field>
+												<field name="smallIconPath">
+													<String>${framework}/css/gfx/label_small.png</String>
+												</field>
+												<field name="toolbarEntriesDescriptorList">
+													<toolbarEntry-array>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_prefLabel</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_prefLabel_de</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_prefLabel_en</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_altLabel</String>
+															</field>
+														</toolbarItem>
+													</toolbarEntry-array>
+												</field>
+											</toolbar>
+											<toolbarItem>
+												<field name="actionID">
+													<String>Concept_definition</String>
+												</field>
+											</toolbarItem>
+											<toolbarSeparator/>
+											<toolbar>
+												<field name="id">
+													<String>Gruppen</String>
+												</field>
+												<field name="type">
+													<Integer>3</Integer>
+												</field>
+												<field name="largeIconPath">
+													<String>${framework}/css/gfx/collection_large.png</String>
+												</field>
+												<field name="smallIconPath">
+													<String>${framework}/css/gfx/collection_small.png</String>
+												</field>
+												<field name="toolbarEntriesDescriptorList">
+													<toolbarEntry-array>
+														<toolbarItem>
+															<field name="actionID">
+																<String>general_new_collection</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Collection_member</String>
+															</field>
+														</toolbarItem>
+													</toolbarEntry-array>
+												</field>
+											</toolbar>
+											<toolbarSeparator/>
+											<toolbar>
+												<field name="id">
+													<String>Beziehungen (Prädikate)</String>
+												</field>
+												<field name="type">
+													<Integer>3</Integer>
+												</field>
+												<field name="largeIconPath">
+													<String>${framework}/css/gfx/beziehungen_large.png</String>
+												</field>
+												<field name="smallIconPath">
+													<String>${framework}/css/gfx/beziehungen_small.png</String>
+												</field>
+												<field name="toolbarEntriesDescriptorList">
+													<toolbarEntry-array>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_broader</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_narrower</String>
+															</field>
+														</toolbarItem>
+														<toolbarSeparator/>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_related</String>
+															</field>
+														</toolbarItem>
+													</toolbarEntry-array>
+												</field>
+											</toolbar>
+											<toolbar>
+												<field name="id">
+													<String>externe Ressourcen</String>
+												</field>
+												<field name="type">
+													<Integer>3</Integer>
+												</field>
+												<field name="largeIconPath">
+													<String>${framework}/css/gfx/sw_large.png</String>
+												</field>
+												<field name="smallIconPath">
+													<String>${framework}/css/gfx/sw_small.png</String>
+												</field>
+												<field name="toolbarEntriesDescriptorList">
+													<toolbarEntry-array>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_exactMatch</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_closeMatch</String>
+															</field>
+														</toolbarItem>
+														<toolbarSeparator/>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_narrowMatch</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_broadMatch</String>
+															</field>
+														</toolbarItem>
+														<toolbarItem>
+															<field name="actionID">
+																<String>Concept_relatedMatch</String>
+															</field>
+														</toolbarItem>
+													</toolbarEntry-array>
+												</field>
+											</toolbar>
+											<toolbarSeparator/>
+											<toolbarItem>
+												<field name="actionID">
+													<String>general_inferences</String>
+												</field>
+											</toolbarItem>
+											<toolbarSeparator/>
+											<toolbarItem>
+												<field name="actionID">
+													<String>general_README</String>
+												</field>
+											</toolbarItem>
+											<toolbarItem>
+												<field name="actionID">
+													<String>general_website</String>
+												</field>
+											</toolbarItem>
+											<toolbarItem>
+												<field name="actionID">
+													<String>general_documentation_2</String>
+												</field>
+											</toolbarItem>
+										</toolbarEntry-array>
+									</field>
+								</toolbar>
+							</field>
+							<field name="additionalToolbarsDescriptors">
+								<null/>
+							</field>
+							<field name="contextualItems">
+								<contextProvider>
+									<field name="items">
+										<contextItem-array/>
+									</field>
+									<field name="removeItems">
+										<null/>
+									</field>
+								</contextProvider>
+							</field>
+							<field name="tableSupportClassName">
+								<null/>
+							</field>
+							<field name="tableCellSeparatorSupportClassName">
+								<null/>
+							</field>
+							<field name="tableColWidthSupportClassName">
+								<null/>
+							</field>
+							<field name="customReferencesResolver">
+								<null/>
+							</field>
+							<field name="editPropertiesHandler">
+								<null/>
+							</field>
+							<field name="authorExtensionStateListener">
+								<null/>
+							</field>
+							<field name="attributesRecognizer">
+								<null/>
+							</field>
+							<field name="authorActionEventHandler">
+								<null/>
+							</field>
+							<field name="authorImageDecorator">
+								<null/>
+							</field>
+						</authorExtension>
+					</field>
+					<field name="templatesLocations">
+						<String-array>
+							<String>${frameworkDir}/templates</String>
+						</String-array>
+					</field>
+					<field name="xmlCatalogs">
+						<String-array/>
+					</field>
+					<field name="description">
+						<String>Oxygen XML Framework for ediarum.SKOS</String>
+					</field>
+					<field name="doctypeRules">
+						<documentTypeRule-array>
+							<documentTypeRule>
+								<field name="namespace">
+									<String>*</String>
+								</field>
+								<field name="rootElem">
+									<String>*</String>
+								</field>
+								<field name="fileName">
+									<String>*</String>
+								</field>
+								<field name="publicID">
+									<String>*</String>
+								</field>
+								<field name="javaRuleClass">
+									<String></String>
+								</field>
+								<field name="attributeLocalName">
+									<String>doctype</String>
+								</field>
+								<field name="attributeNamespace">
+									<String>http://www.telota.de</String>
+								</field>
+								<field name="attributeValue">
+									<String>*thesaurus</String>
+								</field>
+							</documentTypeRule>
+						</documentTypeRule-array>
+					</field>
+					<field name="scenarios">
+						<scenario-array/>
+					</field>
+					<field name="validationScenarios">
+						<validationScenario-array>
+							<validationScenario>
+								<field name="pairs">
+									<list>
+										<validationUnit>
+											<field name="validationType">
+												<validationUnitType>
+													<field name="validationInputType">
+														<String>text/rng</String>
+													</field>
+												</validationUnitType>
+											</field>
+											<field name="url">
+												<String>${framework}/schemata/skos.rng</String>
+											</field>
+											<field name="validationEngine">
+												<validationEngine>
+													<field name="engineType">
+														<String>&lt;Default engine></String>
+													</field>
+													<field name="allowsAutomaticValidation">
+														<Boolean>true</Boolean>
+													</field>
+												</validationEngine>
+											</field>
+											<field name="allowAutomaticValidation">
+												<Boolean>true</Boolean>
+											</field>
+											<field name="extensions">
+												<null/>
+											</field>
+											<field name="validationSchema">
+												<null/>
+											</field>
+											<field name="validationAdvancedSettings">
+												<null/>
+											</field>
+										</validationUnit>
+									</list>
+								</field>
+								<field name="type">
+									<String>Validation_scenario</String>
+								</field>
+								<field name="name">
+									<String>ediarum.SKOS.edit</String>
+								</field>
+							</validationScenario>
+						</validationScenario-array>
+					</field>
+					<field name="defaultValidationScenarios">
+						<list>
+							<String>ediarum.SKOS.edit</String>
+						</list>
+					</field>
+					<field name="defaultTransformationScenarios">
+						<null/>
+					</field>
+					<field name="extensionsBundleClassName">
+						<null/>
+					</field>
+					<field name="useImposedInitialPage">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="imposedInitialPage">
+						<String>Author</String>
+					</field>
+					<field name="elementLocatorExtension">
+						<null/>
+					</field>
+					<field name="schemaManagerFilterExtension">
+						<null/>
+					</field>
+					<field name="authorSWTDndExtension">
+						<null/>
+					</field>
+					<field name="textSWTDndExtension">
+						<null/>
+					</field>
+					<field name="authorSwingDndExtension">
+						<null/>
+					</field>
+					<field name="cssStylesFilterExtension">
+						<null/>
+					</field>
+					<field name="attributesValueEditor">
+						<null/>
+					</field>
+					<field name="priority">
+						<Integer>3</Integer>
+					</field>
+					<field name="xmlNodeCustomizerExtension">
+						<null/>
+					</field>
+					<field name="externalObjectInsertionHandler">
+						<null/>
+					</field>
+					<field name="customAttributeValueEditor">
+						<null/>
+					</field>
+					<field name="textModeExternalObjectInsertionHandler">
+						<null/>
+					</field>
+				</documentTypeDescriptor>
+			</documentTypeDescriptor-array>
+		</entry>
+	</serializableOrderedMap>
+</serialized>

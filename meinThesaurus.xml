@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:telota="http://www.telota.de"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tei="http://www.tei-c.org/ns/1.0" telota:doctype="thesaurus" xml:lang="de" xml:id="rmz_bmh_1cc">
+	<skos:ConceptScheme rdf:about="www.meinthesaurus.de">
+		<skos:prefLabel xml:lang="de">Beispiel Thesaurus</skos:prefLabel>
+	</skos:ConceptScheme>
+	<skos:Collection rdf:about="www.meinthesaurus.de/rk5_qmh_1cc">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+		<skos:prefLabel xml:lang="de">Neue Gruppe</skos:prefLabel>
+		<skos:definition xml:lang="de">Das hier ist eine Gruppe, die bestimmte Konzepte zusammen
+			fasst.</skos:definition>
+		<skos:member rdf:resource="www.meinthesaurus.de/dnj_2mh_1cc"/>
+	</skos:Collection>
+	<skos:Collection rdf:about="www.meinthesaurus.de/il4_rmh_1cc">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+		<skos:prefLabel xml:lang="de">Neue zweite Gruppe</skos:prefLabel>
+	</skos:Collection>
+	<skos:Concept rdf:about="www.meinthesaurus.de/dnj_2mh_1cc">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<skos:prefLabel xml:lang="de">Neuer Eintrag</skos:prefLabel>
+	</skos:Concept>
+</rdf:RDF>

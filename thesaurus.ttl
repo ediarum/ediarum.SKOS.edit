@@ -1,0 +1,2881 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://schleiermacher-digital.de/skos/S4663595> a skos:Collection ;
+    skos:member <https://schleiermacher-digital.de/skos/S0720661>,
+        <https://schleiermacher-digital.de/skos/S2460831>,
+        <https://schleiermacher-digital.de/skos/S2853434>,
+        <https://schleiermacher-digital.de/skos/S3786610>,
+        <https://schleiermacher-digital.de/skos/S4155496>,
+        <https://schleiermacher-digital.de/skos/S4620872>,
+        <https://schleiermacher-digital.de/skos/S4818188>,
+        <https://schleiermacher-digital.de/skos/S5660592>,
+        <https://schleiermacher-digital.de/skos/S7026987>,
+        <https://schleiermacher-digital.de/skos/S7595267>,
+        <https://schleiermacher-digital.de/skos/S7970988>,
+        <https://schleiermacher-digital.de/skos/S8002896>,
+        <https://schleiermacher-digital.de/skos/S8179528>,
+        <https://schleiermacher-digital.de/skos/S8192133>,
+        <https://schleiermacher-digital.de/skos/S9356778>,
+        <https://schleiermacher-digital.de/skos/S9439407>,
+        <https://schleiermacher-digital.de/skos/S9478126>,
+        <https://schleiermacher-digital.de/skos/S9478131>,
+        <https://schleiermacher-digital.de/skos/S9478132>,
+        <https://schleiermacher-digital.de/skos/S9478133>,
+        <https://schleiermacher-digital.de/skos/S9478134>,
+        <https://schleiermacher-digital.de/skos/S9478136>,
+        <https://schleiermacher-digital.de/skos/S9478137>,
+        <https://schleiermacher-digital.de/skos/S9478138>,
+        <https://schleiermacher-digital.de/skos/S9478139>,
+        <https://schleiermacher-digital.de/skos/S9478142>,
+        <https://schleiermacher-digital.de/skos/S9478143>,
+        <https://schleiermacher-digital.de/skos/S9478144>,
+        <https://schleiermacher-digital.de/skos/S9478145>,
+        <https://schleiermacher-digital.de/skos/S9478148>,
+        <https://schleiermacher-digital.de/skos/S9478150>,
+        <https://schleiermacher-digital.de/skos/S9478152>,
+        <https://schleiermacher-digital.de/skos/S9478153>,
+        <https://schleiermacher-digital.de/skos/S9478154>,
+        <https://schleiermacher-digital.de/skos/S9478155>,
+        <https://schleiermacher-digital.de/skos/S9478156>,
+        <https://schleiermacher-digital.de/skos/S9478158>,
+        <https://schleiermacher-digital.de/skos/S9478160>,
+        <https://schleiermacher-digital.de/skos/S9478161>,
+        <https://schleiermacher-digital.de/skos/S9478162>,
+        <https://schleiermacher-digital.de/skos/S9478163>,
+        <https://schleiermacher-digital.de/skos/S9478165>,
+        <https://schleiermacher-digital.de/skos/S9478166>,
+        <https://schleiermacher-digital.de/skos/S9478167>,
+        <https://schleiermacher-digital.de/skos/S9478168>,
+        <https://schleiermacher-digital.de/skos/S9478169>,
+        <https://schleiermacher-digital.de/skos/S9478170>,
+        <https://schleiermacher-digital.de/skos/S9478171>,
+        <https://schleiermacher-digital.de/skos/S9478172>,
+        <https://schleiermacher-digital.de/skos/S9478173>,
+        <https://schleiermacher-digital.de/skos/S9478174>,
+        <https://schleiermacher-digital.de/skos/S9478175>,
+        <https://schleiermacher-digital.de/skos/S9478176>,
+        <https://schleiermacher-digital.de/skos/S9478177>,
+        <https://schleiermacher-digital.de/skos/S9478178>,
+        <https://schleiermacher-digital.de/skos/S9478179>,
+        <https://schleiermacher-digital.de/skos/S9478180>,
+        <https://schleiermacher-digital.de/skos/S9478181>,
+        <https://schleiermacher-digital.de/skos/S9478182>,
+        <https://schleiermacher-digital.de/skos/S9478183>,
+        <https://schleiermacher-digital.de/skos/S9478289>,
+        <https://schleiermacher-digital.de/skos/S9478292>,
+        <https://schleiermacher-digital.de/skos/S9478293>,
+        <https://schleiermacher-digital.de/skos/S9478294>,
+        <https://schleiermacher-digital.de/skos/S9478298>,
+        <https://schleiermacher-digital.de/skos/S9478299>,
+        <https://schleiermacher-digital.de/skos/S9478300>,
+        <https://schleiermacher-digital.de/skos/S9478302>,
+        <https://schleiermacher-digital.de/skos/S9478303>,
+        <https://schleiermacher-digital.de/skos/S9478304>,
+        <https://schleiermacher-digital.de/skos/S9478305>,
+        <https://schleiermacher-digital.de/skos/S9478306>,
+        <https://schleiermacher-digital.de/skos/S9478307>,
+        <https://schleiermacher-digital.de/skos/S9478308>,
+        <https://schleiermacher-digital.de/skos/S9478312>,
+        <https://schleiermacher-digital.de/skos/S9478313>,
+        <https://schleiermacher-digital.de/skos/S9478314>,
+        <https://schleiermacher-digital.de/skos/S9478315>,
+        <https://schleiermacher-digital.de/skos/S9478316>,
+        <https://schleiermacher-digital.de/skos/S9478317>,
+        <https://schleiermacher-digital.de/skos/S9478318>,
+        <https://schleiermacher-digital.de/skos/S9478319>,
+        <https://schleiermacher-digital.de/skos/S9478320>,
+        <https://schleiermacher-digital.de/skos/S9478321>,
+        <https://schleiermacher-digital.de/skos/S9478322>,
+        <https://schleiermacher-digital.de/skos/S9478323>,
+        <https://schleiermacher-digital.de/skos/S9478328>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478330>,
+        <https://schleiermacher-digital.de/skos/S9478331>,
+        <https://schleiermacher-digital.de/skos/S9478332>,
+        <https://schleiermacher-digital.de/skos/S9478336>,
+        <https://schleiermacher-digital.de/skos/S9478337>,
+        <https://schleiermacher-digital.de/skos/S9478338>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478340>,
+        <https://schleiermacher-digital.de/skos/S9478343>,
+        <https://schleiermacher-digital.de/skos/S9478345>,
+        <https://schleiermacher-digital.de/skos/S9478346>,
+        <https://schleiermacher-digital.de/skos/S9478347>,
+        <https://schleiermacher-digital.de/skos/S9478348>,
+        <https://schleiermacher-digital.de/skos/S9478349>,
+        <https://schleiermacher-digital.de/skos/S9478350>,
+        <https://schleiermacher-digital.de/skos/S9478351>,
+        <https://schleiermacher-digital.de/skos/S9478352>,
+        <https://schleiermacher-digital.de/skos/S9478353>,
+        <https://schleiermacher-digital.de/skos/S9478354>,
+        <https://schleiermacher-digital.de/skos/S9478355>,
+        <https://schleiermacher-digital.de/skos/S9478356>,
+        <https://schleiermacher-digital.de/skos/S9478357>,
+        <https://schleiermacher-digital.de/skos/S9478358>,
+        <https://schleiermacher-digital.de/skos/S9478359>,
+        <https://schleiermacher-digital.de/skos/S9478360>,
+        <https://schleiermacher-digital.de/skos/S9478361>,
+        <https://schleiermacher-digital.de/skos/S9478362>,
+        <https://schleiermacher-digital.de/skos/S9478363>,
+        <https://schleiermacher-digital.de/skos/S9478364>,
+        <https://schleiermacher-digital.de/skos/S9478365>,
+        <https://schleiermacher-digital.de/skos/S9478366>,
+        <https://schleiermacher-digital.de/skos/S9478367>,
+        <https://schleiermacher-digital.de/skos/S9478368>,
+        <https://schleiermacher-digital.de/skos/S9478369>,
+        <https://schleiermacher-digital.de/skos/S9478370>,
+        <https://schleiermacher-digital.de/skos/S9478371>,
+        <https://schleiermacher-digital.de/skos/S9478372>,
+        <https://schleiermacher-digital.de/skos/S9478373>,
+        <https://schleiermacher-digital.de/skos/S9478390>,
+        <https://schleiermacher-digital.de/skos/S9478391>,
+        <https://schleiermacher-digital.de/skos/S9478392>,
+        <https://schleiermacher-digital.de/skos/S9478393>,
+        <https://schleiermacher-digital.de/skos/S9478400>,
+        <https://schleiermacher-digital.de/skos/S9478402>,
+        <https://schleiermacher-digital.de/skos/S9478403>,
+        <https://schleiermacher-digital.de/skos/S9478404>,
+        <https://schleiermacher-digital.de/skos/S9478412>,
+        <https://schleiermacher-digital.de/skos/S9478413>,
+        <https://schleiermacher-digital.de/skos/S9478415>,
+        <https://schleiermacher-digital.de/skos/S9478416>,
+        <https://schleiermacher-digital.de/skos/S9478417>,
+        <https://schleiermacher-digital.de/skos/S9478418>,
+        <https://schleiermacher-digital.de/skos/S9478419>,
+        <https://schleiermacher-digital.de/skos/S9478420>,
+        <https://schleiermacher-digital.de/skos/S9478421>,
+        <https://schleiermacher-digital.de/skos/S9478422>,
+        <https://schleiermacher-digital.de/skos/S9478423>,
+        <https://schleiermacher-digital.de/skos/S9478425>,
+        <https://schleiermacher-digital.de/skos/S9478428>,
+        <https://schleiermacher-digital.de/skos/S9478429>,
+        <https://schleiermacher-digital.de/skos/S9478430>,
+        <https://schleiermacher-digital.de/skos/S9478431>,
+        <https://schleiermacher-digital.de/skos/S9478432>,
+        <https://schleiermacher-digital.de/skos/S9478433>,
+        <https://schleiermacher-digital.de/skos/S9478434>,
+        <https://schleiermacher-digital.de/skos/S9478435>,
+        <https://schleiermacher-digital.de/skos/S9478436>,
+        <https://schleiermacher-digital.de/skos/S9478437>,
+        <https://schleiermacher-digital.de/skos/S9478438>,
+        <https://schleiermacher-digital.de/skos/S9478439>,
+        <https://schleiermacher-digital.de/skos/S9478440>,
+        <https://schleiermacher-digital.de/skos/S9478441>,
+        <https://schleiermacher-digital.de/skos/S9478442>,
+        <https://schleiermacher-digital.de/skos/S9478443>,
+        <https://schleiermacher-digital.de/skos/S9478444>,
+        <https://schleiermacher-digital.de/skos/S9478445>,
+        <https://schleiermacher-digital.de/skos/S9478446>,
+        <https://schleiermacher-digital.de/skos/S9478447>,
+        <https://schleiermacher-digital.de/skos/S9478448>,
+        <https://schleiermacher-digital.de/skos/S9478449>,
+        <https://schleiermacher-digital.de/skos/S9478450>,
+        <https://schleiermacher-digital.de/skos/S9478451>,
+        <https://schleiermacher-digital.de/skos/S9478452>,
+        <https://schleiermacher-digital.de/skos/S9478454>,
+        <https://schleiermacher-digital.de/skos/S9478455>,
+        <https://schleiermacher-digital.de/skos/S9478456>,
+        <https://schleiermacher-digital.de/skos/S9478457>,
+        <https://schleiermacher-digital.de/skos/S9478458>,
+        <https://schleiermacher-digital.de/skos/S9478459>,
+        <https://schleiermacher-digital.de/skos/S9478460>,
+        <https://schleiermacher-digital.de/skos/S9478461>,
+        <https://schleiermacher-digital.de/skos/S9478462>,
+        <https://schleiermacher-digital.de/skos/S9478463>,
+        <https://schleiermacher-digital.de/skos/S9478465>,
+        <https://schleiermacher-digital.de/skos/S9478466>,
+        <https://schleiermacher-digital.de/skos/S9478467>,
+        <https://schleiermacher-digital.de/skos/S9478468>,
+        <https://schleiermacher-digital.de/skos/S9478469>,
+        <https://schleiermacher-digital.de/skos/S9478470>,
+        <https://schleiermacher-digital.de/skos/S9478471>,
+        <https://schleiermacher-digital.de/skos/S9478472>,
+        <https://schleiermacher-digital.de/skos/S9478473>,
+        <https://schleiermacher-digital.de/skos/S9478474>,
+        <https://schleiermacher-digital.de/skos/S9478476>,
+        <https://schleiermacher-digital.de/skos/S9478477>,
+        <https://schleiermacher-digital.de/skos/S9478478>,
+        <https://schleiermacher-digital.de/skos/S9478479>,
+        <https://schleiermacher-digital.de/skos/S9478481>,
+        <https://schleiermacher-digital.de/skos/S9478496>,
+        <https://schleiermacher-digital.de/skos/S9478497>,
+        <https://schleiermacher-digital.de/skos/S9478498>,
+        <https://schleiermacher-digital.de/skos/S9478499>,
+        <https://schleiermacher-digital.de/skos/S9478500>,
+        <https://schleiermacher-digital.de/skos/S9478504>,
+        <https://schleiermacher-digital.de/skos/S9478505>,
+        <https://schleiermacher-digital.de/skos/S9478506>,
+        <https://schleiermacher-digital.de/skos/S9478507>,
+        <https://schleiermacher-digital.de/skos/S9478508>,
+        <https://schleiermacher-digital.de/skos/S9478509>,
+        <https://schleiermacher-digital.de/skos/S9478511>,
+        <https://schleiermacher-digital.de/skos/S9478512>,
+        <https://schleiermacher-digital.de/skos/S9478513>,
+        <https://schleiermacher-digital.de/skos/S9478514>,
+        <https://schleiermacher-digital.de/skos/S9478515>,
+        <https://schleiermacher-digital.de/skos/S9478516>,
+        <https://schleiermacher-digital.de/skos/S9478517>,
+        <https://schleiermacher-digital.de/skos/S9478518>,
+        <https://schleiermacher-digital.de/skos/S9478519>,
+        <https://schleiermacher-digital.de/skos/S9478520>,
+        <https://schleiermacher-digital.de/skos/S9478521>,
+        <https://schleiermacher-digital.de/skos/S9478524>,
+        <https://schleiermacher-digital.de/skos/S9478525>,
+        <https://schleiermacher-digital.de/skos/S9478526>,
+        <https://schleiermacher-digital.de/skos/S9478530>,
+        <https://schleiermacher-digital.de/skos/S9478531>,
+        <https://schleiermacher-digital.de/skos/S9478532>,
+        <https://schleiermacher-digital.de/skos/S9478533>,
+        <https://schleiermacher-digital.de/skos/S9478534>,
+        <https://schleiermacher-digital.de/skos/S9478535>,
+        <https://schleiermacher-digital.de/skos/S9478536>,
+        <https://schleiermacher-digital.de/skos/S9478537>,
+        <https://schleiermacher-digital.de/skos/S9478538>,
+        <https://schleiermacher-digital.de/skos/S9478539>,
+        <https://schleiermacher-digital.de/skos/S9478540>,
+        <https://schleiermacher-digital.de/skos/S9478541>,
+        <https://schleiermacher-digital.de/skos/S9478542>,
+        <https://schleiermacher-digital.de/skos/S9478543>,
+        <https://schleiermacher-digital.de/skos/S9478545>,
+        <https://schleiermacher-digital.de/skos/S9478546>,
+        <https://schleiermacher-digital.de/skos/S9478547>,
+        <https://schleiermacher-digital.de/skos/S9478548>,
+        <https://schleiermacher-digital.de/skos/S9478549>,
+        <https://schleiermacher-digital.de/skos/S9478550>,
+        <https://schleiermacher-digital.de/skos/S9478551>,
+        <https://schleiermacher-digital.de/skos/S9478552>,
+        <https://schleiermacher-digital.de/skos/S9478553>,
+        <https://schleiermacher-digital.de/skos/S9478554>,
+        <https://schleiermacher-digital.de/skos/S9478555>,
+        <https://schleiermacher-digital.de/skos/S9478556>,
+        <https://schleiermacher-digital.de/skos/S9478557>,
+        <https://schleiermacher-digital.de/skos/S9478558>,
+        <https://schleiermacher-digital.de/skos/S9478559>,
+        <https://schleiermacher-digital.de/skos/S9478560>,
+        <https://schleiermacher-digital.de/skos/S9478561>,
+        <https://schleiermacher-digital.de/skos/S9478562>,
+        <https://schleiermacher-digital.de/skos/S9478563>,
+        <https://schleiermacher-digital.de/skos/S9478564>,
+        <https://schleiermacher-digital.de/skos/S9478565>,
+        <https://schleiermacher-digital.de/skos/S9478566>,
+        <https://schleiermacher-digital.de/skos/S9478567>,
+        <https://schleiermacher-digital.de/skos/S9478568>,
+        <https://schleiermacher-digital.de/skos/S9478569>,
+        <https://schleiermacher-digital.de/skos/S9478570>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Wörter und Begriffe"@de .
+
+<https://schleiermacher-digital.de/skos/S7852481> a skos:Collection ;
+    skos:member <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478219>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:prefLabel "Themen"@de .
+
+<https://schleiermacher-digital.de/skos/> a skos:ConceptScheme .
+
+<https://schleiermacher-digital.de/skos/S9478146> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Zeichen"@de,
+        "sign"@en .
+
+<http://d-nb.info/gnd/4000626-8> skos:related <https://schleiermacher-digital.de/skos/S9478392> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478392> .
+
+<https://schleiermacher-digital.de/skos/S0720661> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstvermögen"@de,
+        "artistic ability"@en .
+
+<https://schleiermacher-digital.de/skos/S3786610> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "natürlich"@de,
+        "natural"@en .
+
+<https://schleiermacher-digital.de/skos/S4620872> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Nachbild"@de .
+
+<https://schleiermacher-digital.de/skos/S4818188> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "populär"@de .
+
+<https://schleiermacher-digital.de/skos/S5660592> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Welt"@de,
+        "world"@en .
+
+<https://schleiermacher-digital.de/skos/S7595267> a skos:Concept ;
+    skos:altLabel "Null"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Nichtigkeit"@de,
+        "nullity"@en .
+
+<https://schleiermacher-digital.de/skos/S8002896> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Symbolische"@de,
+        "symbolic"@en .
+
+<https://schleiermacher-digital.de/skos/S8192133> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "pathema"@de,
+        "πάθημα"@el .
+
+<https://schleiermacher-digital.de/skos/S9356778> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "symbolisch"@de,
+        "symbolic"@en .
+
+<https://schleiermacher-digital.de/skos/S9439407> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Ebenbild"@de,
+        "likeness"@en .
+
+<https://schleiermacher-digital.de/skos/S9478126> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "zierlich"@de,
+        "dainty"@en .
+
+<https://schleiermacher-digital.de/skos/S9478132> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstvollkommenheit"@de,
+        "art perfection"@en .
+
+<https://schleiermacher-digital.de/skos/S9478133> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gelegenheitswerk"@de,
+        "occasional work"@en .
+
+<https://schleiermacher-digital.de/skos/S9478136> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Schlaf"@de,
+        "sleep"@en .
+
+<https://schleiermacher-digital.de/skos/S9478139> a skos:Concept ;
+    skos:altLabel "spekulativ"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "speculativ"@de,
+        "speculative"@en .
+
+<https://schleiermacher-digital.de/skos/S9478143> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Begriff"@de,
+        "concept"@en .
+
+<https://schleiermacher-digital.de/skos/S9478145> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Chaotische"@de,
+        "chaotic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478148> a skos:Concept ;
+    skos:altLabel "Äußerung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Aeußerung"@de,
+        "utterance"@en .
+
+<https://schleiermacher-digital.de/skos/S9478152> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kirchliche"@de,
+        "ecclesiastical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478153> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "national"@de,
+        "national"@en .
+
+<https://schleiermacher-digital.de/skos/S9478154> a skos:Concept ;
+    skos:altLabel "Publicum"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Publikum"@de,
+        "audience"@en .
+
+<https://schleiermacher-digital.de/skos/S9478161> a skos:Concept ;
+    skos:altLabel "Gemeßne"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gemessene"@de,
+        "measured"@en .
+
+<https://schleiermacher-digital.de/skos/S9478162> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Seele"@de,
+        "soul"@en .
+
+<https://schleiermacher-digital.de/skos/S9478163> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geist, absolute"@de,
+        "absolute spirit"@en .
+
+<https://schleiermacher-digital.de/skos/S9478165> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Begeisterung"@de,
+        "enthusiasm"@en .
+
+<https://schleiermacher-digital.de/skos/S9478167> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kritik"@de,
+        "criticism"@en .
+
+<https://schleiermacher-digital.de/skos/S9478171> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Besonnenheit"@de,
+        "prudence"@en .
+
+<https://schleiermacher-digital.de/skos/S9478175> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "dienend"@de,
+        "serving"@en .
+
+<https://schleiermacher-digital.de/skos/S9478176> a skos:Concept ;
+    skos:altLabel "Eigentümliche"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Eigenthümliche"@de,
+        "peculiar"@en .
+
+<https://schleiermacher-digital.de/skos/S9478177> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Zierliche"@de,
+        "dainty"@en .
+
+<https://schleiermacher-digital.de/skos/S9478178> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "bürgerlich"@de,
+        "bourgeois"@en .
+
+<https://schleiermacher-digital.de/skos/S9478179> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "fragmentarisch"@de,
+        "fragmentary"@en .
+
+<https://schleiermacher-digital.de/skos/S9478180> a skos:Concept ;
+    skos:altLabel "Classifikation"@de,
+        "Klassifikation"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Classification"@de,
+        "classification"@en .
+
+<https://schleiermacher-digital.de/skos/S9478181> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Hauptwerk"@de,
+        "main work"@en .
+
+<https://schleiermacher-digital.de/skos/S9478289> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Empfindung"@de,
+        "sensation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478292> a skos:Concept ;
+    skos:altLabel "Sukzession"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Succession"@de,
+        "succession"@en .
+
+<https://schleiermacher-digital.de/skos/S9478299> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Erkennen"@de,
+        "recognising"@en .
+
+<https://schleiermacher-digital.de/skos/S9478302> a skos:Concept ;
+    skos:altLabel "Urteilskraft"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Urtheilskraft"@de,
+        "power of judgment"@en .
+
+<https://schleiermacher-digital.de/skos/S9478306> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Psychologie"@de,
+        "psychology"@en .
+
+<https://schleiermacher-digital.de/skos/S9478307> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Logik"@de,
+        "logic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478312> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "hoch"@de,
+        "high"@en .
+
+<https://schleiermacher-digital.de/skos/S9478315> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Formel"@de,
+        "formula"@en .
+
+<https://schleiermacher-digital.de/skos/S9478318> a skos:Concept ;
+    skos:altLabel "Freyheit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Freiheit"@de,
+        "freedom"@en .
+
+<https://schleiermacher-digital.de/skos/S9478319> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Improvisiren"@de,
+        "improvising"@en .
+
+<https://schleiermacher-digital.de/skos/S9478320> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Sinn, ästhetische"@de,
+        "aesthetic sense"@en .
+
+<https://schleiermacher-digital.de/skos/S9478330> a skos:Concept ;
+    skos:altLabel "Übung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Uebung"@de,
+        "exercise"@en .
+
+<https://schleiermacher-digital.de/skos/S9478336> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "streng"@de,
+        "severe"@en .
+
+<https://schleiermacher-digital.de/skos/S9478338> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "ars"@de,
+        "ars"@la .
+
+<https://schleiermacher-digital.de/skos/S9478345> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Nation"@de,
+        "nation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478349> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geschichtliche"@de,
+        "historical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478350> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "ernst"@de,
+        "serious"@en .
+
+<https://schleiermacher-digital.de/skos/S9478351> a skos:Concept ;
+    skos:altLabel "Scizze"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Skizze"@de,
+        "sketch"@en .
+
+<https://schleiermacher-digital.de/skos/S9478352> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "göttlich"@de,
+        "divine"@en .
+
+<https://schleiermacher-digital.de/skos/S9478354> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Zufällige"@de,
+        "accidental"@en .
+
+<https://schleiermacher-digital.de/skos/S9478356> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Uebungsstück"@de,
+        "exercise piece"@en .
+
+<https://schleiermacher-digital.de/skos/S9478357> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Rede"@de,
+        "speech"@en .
+
+<https://schleiermacher-digital.de/skos/S9478361> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Identische"@de,
+        "identical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478363> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Größe"@de,
+        "size"@en .
+
+<https://schleiermacher-digital.de/skos/S9478364> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Fortschritt"@de,
+        "progress"@en .
+
+<https://schleiermacher-digital.de/skos/S9478367> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "begleitend"@de,
+        "accompanying"@en .
+
+<https://schleiermacher-digital.de/skos/S9478368> a skos:Concept ;
+    skos:altLabel "aegyptisch"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "egyptisch"@de,
+        "egyptian"@en .
+
+<https://schleiermacher-digital.de/skos/S9478370> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Fertigkeit"@de,
+        "skill"@en .
+
+<https://schleiermacher-digital.de/skos/S9478371> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geist"@de,
+        "spirit"@en .
+
+<https://schleiermacher-digital.de/skos/S9478372> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Beiwerk"@de,
+        "accessory"@en .
+
+<https://schleiermacher-digital.de/skos/S9478373> a skos:Concept ;
+    skos:altLabel "Spekulation"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Speculation"@de,
+        "speculation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478393> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Zweig"@de,
+        "branch of art"@en .
+
+<https://schleiermacher-digital.de/skos/S9478403> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mangellose"@de,
+        "defectless"@en .
+
+<https://schleiermacher-digital.de/skos/S9478412> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "leicht"@de,
+        "light"@en .
+
+<https://schleiermacher-digital.de/skos/S9478415> a skos:Concept ;
+    skos:altLabel "Entwiklung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Entwicklung"@de,
+        "development"@en .
+
+<https://schleiermacher-digital.de/skos/S9478416> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Lebendigkeit"@de,
+        "liveliness"@en .
+
+<https://schleiermacher-digital.de/skos/S9478420> a skos:Concept ;
+    skos:altLabel "Studie"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Studium"@de,
+        "study"@en .
+
+<https://schleiermacher-digital.de/skos/S9478421> a skos:Concept ;
+    skos:altLabel "Disziplin"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Disciplin"@de,
+        "discipline"@en .
+
+<https://schleiermacher-digital.de/skos/S9478422> a skos:Concept ;
+    skos:altLabel "Bewußtsein, gegenständliche"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Bewußtseyn, gegenständliche"@de,
+        "consciousness, objective"@en .
+
+<https://schleiermacher-digital.de/skos/S9478425> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vorbild"@de,
+        "model"@en .
+
+<https://schleiermacher-digital.de/skos/S9478429> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Erfindung"@de,
+        "invention"@en .
+
+<https://schleiermacher-digital.de/skos/S9478430> a skos:Concept ;
+    skos:altLabel "Altertum"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Alterthum"@de,
+        "ancient times"@en .
+
+<https://schleiermacher-digital.de/skos/S9478431> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Antiideale"@de,
+        "anti-ideal"@en .
+
+<https://schleiermacher-digital.de/skos/S9478432> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Unwillkührlichkeit"@de,
+        "involuntariness"@en .
+
+<https://schleiermacher-digital.de/skos/S9478433> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Wechselwirkung"@de,
+        "interaction"@en .
+
+<https://schleiermacher-digital.de/skos/S9478435> a skos:Concept ;
+    skos:altLabel "Opernstyl"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Opernstil"@de,
+        "opera style"@en .
+
+<https://schleiermacher-digital.de/skos/S9478436> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Talent"@de,
+        "talent"@en .
+
+<https://schleiermacher-digital.de/skos/S9478438> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "hellenisch"@de,
+        "hellenic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478440> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "gesellig"@de,
+        "sociable"@en .
+
+<https://schleiermacher-digital.de/skos/S9478441> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "absolut"@de,
+        "absolute"@en .
+
+<https://schleiermacher-digital.de/skos/S9478444> a skos:Concept ;
+    skos:altLabel "dominierend"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "dominirend"@de,
+        "dominating"@en .
+
+<https://schleiermacher-digital.de/skos/S9478445> a skos:Concept ;
+    skos:altLabel "Abteilung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Abtheilung"@de,
+        "section"@en .
+
+<https://schleiermacher-digital.de/skos/S9478447> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "immanent"@de,
+        "immanent"@en .
+
+<https://schleiermacher-digital.de/skos/S9478448> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gesellschaft"@de,
+        "society"@en .
+
+<https://schleiermacher-digital.de/skos/S9478449> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Dichtkunst"@de,
+        "poetry"@en .
+
+<https://schleiermacher-digital.de/skos/S9478460> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vorbildung"@de,
+        "preformation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478462> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gedankenbildung"@de,
+        "formation of thoughts"@en .
+
+<https://schleiermacher-digital.de/skos/S9478463> a skos:Concept ;
+    skos:altLabel "Bilderzeugung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Bildererzeugung"@de,
+        "generation of images"@en .
+
+<https://schleiermacher-digital.de/skos/S9478465> a skos:Concept ;
+    skos:altLabel "volkstümlich"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "volksthümlich"@de,
+        "popular"@en .
+
+<https://schleiermacher-digital.de/skos/S9478466> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Volksleben"@de,
+        "people's life"@en .
+
+<https://schleiermacher-digital.de/skos/S9478469> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vervollkommnung"@de,
+        "perfecting"@en .
+
+<https://schleiermacher-digital.de/skos/S9478471> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Naturgewalt"@de,
+        "nature's power"@en .
+
+<https://schleiermacher-digital.de/skos/S9478472> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "sinnlich"@de,
+        "sensual"@en .
+
+<https://schleiermacher-digital.de/skos/S9478474> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kirche"@de,
+        "church"@en .
+
+<https://schleiermacher-digital.de/skos/S9478476> a skos:Concept ;
+    skos:altLabel "Kunst, schöne"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Künste, schöne"@de,
+        "fine arts"@en .
+
+<https://schleiermacher-digital.de/skos/S9478477> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Philosophie"@de,
+        "philosophy"@en .
+
+<https://schleiermacher-digital.de/skos/S9478479> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Zweck"@de,
+        "purpose"@en .
+
+<https://schleiermacher-digital.de/skos/S9478481> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Arbeit"@de,
+        "work"@en .
+
+<https://schleiermacher-digital.de/skos/S9478500> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "ethisch"@de,
+        "ethical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478504> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vollkommenheit"@de,
+        "perfection"@en .
+
+<https://schleiermacher-digital.de/skos/S9478505> a skos:Concept ;
+    skos:altLabel "Einteilung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Eintheilung"@de,
+        "division"@en .
+
+<https://schleiermacher-digital.de/skos/S9478506> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Sprache"@de,
+        "language"@en .
+
+<https://schleiermacher-digital.de/skos/S9478511> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "unbewußt"@de,
+        "unconscious"@en .
+
+<https://schleiermacher-digital.de/skos/S9478512> a skos:Concept ;
+    skos:altLabel "Classe"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Klasse"@de,
+        "class"@en .
+
+<https://schleiermacher-digital.de/skos/S9478514> a skos:Concept ;
+    skos:altLabel "Zyklus"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Cyclus"@de,
+        "cycle"@en .
+
+<https://schleiermacher-digital.de/skos/S9478515> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "politisch"@de,
+        "political"@en .
+
+<https://schleiermacher-digital.de/skos/S9478516> a skos:Concept ;
+    skos:altLabel "Gemüt"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gemüth"@de,
+        "mind"@en .
+
+<https://schleiermacher-digital.de/skos/S9478518> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Eintheilungsgrund"@de,
+        "reason for division"@en .
+
+<https://schleiermacher-digital.de/skos/S9478520> a skos:Concept ;
+    skos:altLabel "unwillkührlich"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "unwillkürlich"@de,
+        "involuntary"@en .
+
+<https://schleiermacher-digital.de/skos/S9478524> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Traum"@de,
+        "dream"@en .
+
+<https://schleiermacher-digital.de/skos/S9478526> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "niedlich"@de,
+        "cute"@en .
+
+<https://schleiermacher-digital.de/skos/S9478533> a skos:Concept ;
+    skos:altLabel "Kunstentwiklung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstentwicklung"@de,
+        "development of art"@en .
+
+<https://schleiermacher-digital.de/skos/S9478537> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Verständlichkeit"@de,
+        "comprehensibility"@en .
+
+<https://schleiermacher-digital.de/skos/S9478539> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kleine"@de,
+        "small"@en .
+
+<https://schleiermacher-digital.de/skos/S9478540> a skos:Concept ;
+    skos:altLabel "Spiel, unwillkürliche"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Spiel, unwillkührliche"@de,
+        "play, involuntary"@en .
+
+<https://schleiermacher-digital.de/skos/S9478547> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mangellosigkeit"@de,
+        "defectlessness"@en .
+
+<https://schleiermacher-digital.de/skos/S9478549> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gedanke"@de,
+        "thought"@en .
+
+<https://schleiermacher-digital.de/skos/S9478550> a skos:Concept ;
+    skos:altLabel "Anmutige"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Anmuthige"@de,
+        "graceful"@en .
+
+<https://schleiermacher-digital.de/skos/S9478553> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gedankenerzeugung"@de,
+        "generation of thoughts"@en .
+
+<https://schleiermacher-digital.de/skos/S9478555> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "logisch"@de,
+        "logical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478558> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Differente"@de,
+        "different"@en .
+
+<https://schleiermacher-digital.de/skos/S9478560> a skos:Concept ;
+    skos:altLabel "Comische"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Komische"@de,
+        "comic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478563> a skos:Concept ;
+    skos:altLabel "Characteristische"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Charakteristische"@de,
+        "characteristic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478567> a skos:Concept ;
+    skos:altLabel "Styl"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Stil"@de,
+        "style"@en .
+
+<https://schleiermacher-digital.de/skos/S9478569> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Schöpfung"@de,
+        "creation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478570> a skos:Concept ;
+    skos:altLabel "Zweklosigkeit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Zwecklosigkeit"@de,
+        "purposelessness"@en .
+
+<https://www.wikidata.org/wiki/Q1056332> skos:related <https://schleiermacher-digital.de/skos/S9478559> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478559> .
+
+<https://www.wikidata.org/wiki/Q1195509> skos:related <https://schleiermacher-digital.de/skos/S9478138> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478138> .
+
+<https://www.wikidata.org/wiki/Q12562> skos:related <https://schleiermacher-digital.de/skos/S9478450> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478450> .
+
+<https://www.wikidata.org/wiki/Q1518315> skos:related <https://schleiermacher-digital.de/skos/S9478499> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478499> .
+
+<https://www.wikidata.org/wiki/Q160402> skos:related <https://schleiermacher-digital.de/skos/S9478390> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478390> .
+
+<https://www.wikidata.org/wiki/Q17737> skos:related <https://schleiermacher-digital.de/skos/S9478446> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478446> .
+
+<https://www.wikidata.org/wiki/Q178354> skos:related <https://schleiermacher-digital.de/skos/S9478158> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478158> .
+
+<https://www.wikidata.org/wiki/Q185030> skos:related <https://schleiermacher-digital.de/skos/S9478458> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478458> .
+
+<https://www.wikidata.org/wiki/Q186599> skos:related <https://schleiermacher-digital.de/skos/S9478473> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478473> .
+
+<https://www.wikidata.org/wiki/Q214970> skos:related <https://schleiermacher-digital.de/skos/S9478362> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478362> .
+
+<https://www.wikidata.org/wiki/Q336> skos:related <https://schleiermacher-digital.de/skos/S9478332> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478332> .
+
+<https://www.wikidata.org/wiki/Q468427> skos:related <https://schleiermacher-digital.de/skos/S9478565> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478565> .
+
+<https://www.wikidata.org/wiki/Q5043> skos:related <https://schleiermacher-digital.de/skos/S9478478> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478478> .
+
+<https://www.wikidata.org/wiki/Q50637> skos:related <https://schleiermacher-digital.de/skos/S9478557> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478557> .
+
+<https://www.wikidata.org/wiki/Q7087> skos:related <https://schleiermacher-digital.de/skos/S9478451> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478451> .
+
+<https://www.wikidata.org/wiki/Q735> skos:related <https://schleiermacher-digital.de/skos/S9478545> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478545> .
+
+<https://www.wikidata.org/wiki/Q80071> skos:related <https://schleiermacher-digital.de/skos/S9478413> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478413> .
+
+<https://www.wikidata.org/wiki/Q81009> skos:related <https://schleiermacher-digital.de/skos/S9478428> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478428> .
+
+<https://www.wikidata.org/wiki/Q835023> skos:related <https://schleiermacher-digital.de/skos/S9478418> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478418> .
+
+<https://www.wikidata.org/wiki/Q9134> skos:related <https://schleiermacher-digital.de/skos/S9478353> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478353> .
+
+<https://www.wikidata.org/wiki/Q9174> skos:related <https://schleiermacher-digital.de/skos/S9478461> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478461> .
+
+<https://www.wikidata.org/wiki/Q9465> skos:related <https://schleiermacher-digital.de/skos/S9478548> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478548> .
+
+<https://www.wikidata.org/wiki/Q999803> skos:related <https://schleiermacher-digital.de/skos/S9478423> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478423> .
+
+<https://schleiermacher-digital.de/skos/S2460831> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunst"@de,
+        "art"@en .
+
+<https://schleiermacher-digital.de/skos/S4155496> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Wissen"@de,
+        "knowledge"@en .
+
+<https://schleiermacher-digital.de/skos/S7026987> a skos:Concept ;
+    skos:altLabel "Comödie"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Komödie"@de,
+        "comedy"@en .
+
+<https://schleiermacher-digital.de/skos/S7970988> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Muße"@de,
+        "leisure"@en .
+
+<https://schleiermacher-digital.de/skos/S9478131> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Moderne"@de,
+        "modern age"@en .
+
+<https://schleiermacher-digital.de/skos/S9478137> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "modern"@de,
+        "modern"@en .
+
+<https://schleiermacher-digital.de/skos/S9478142> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "geschichtlich"@de,
+        "historical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478144> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Einzelleben"@de,
+        "individual life"@en .
+
+<https://schleiermacher-digital.de/skos/S9478160> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Hervorbringung"@de,
+        "producing"@en .
+
+<https://schleiermacher-digital.de/skos/S9478168> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mittheilbarkeit"@de,
+        "communicability"@en .
+
+<https://schleiermacher-digital.de/skos/S9478169> a skos:Concept ;
+    skos:altLabel "selbsttätig"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "selbstthätig"@de,
+        "self-acting"@en .
+
+<https://schleiermacher-digital.de/skos/S9478170> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Individuum"@de,
+        "individual"@en .
+
+<https://schleiermacher-digital.de/skos/S9478174> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gattung"@de,
+        "species"@en .
+
+<https://schleiermacher-digital.de/skos/S9478182> a skos:Concept ;
+    skos:altLabel "kolossal"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "colossal"@de,
+        "colossal"@en .
+
+<https://schleiermacher-digital.de/skos/S9478183> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Individuelle"@de,
+        "individual"@en .
+
+<https://schleiermacher-digital.de/skos/S9478294> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Privatleben"@de,
+        "privat life"@en .
+
+<https://schleiermacher-digital.de/skos/S9478300> a skos:Concept ;
+    skos:altLabel "Volkstümlichkeit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Volksthümlichkeit"@de,
+        "popularity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478305> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Antike"@de,
+        "antiquity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478308> a skos:Concept ;
+    skos:altLabel "comisch"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "komisch"@de,
+        "comic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478313> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Politische"@de,
+        "political"@en .
+
+<https://schleiermacher-digital.de/skos/S9478321> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Reale"@de,
+        "real"@en .
+
+<https://schleiermacher-digital.de/skos/S9478322> a skos:Concept ;
+    skos:altLabel "Kunstproduktion"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstproduction"@de,
+        "art production"@en .
+
+<https://schleiermacher-digital.de/skos/S9478331> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Spiel, innere"@de,
+        "play, inner"@en .
+
+<https://schleiermacher-digital.de/skos/S9478337> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Wohlgefallen"@de,
+        "pleasure"@en .
+
+<https://schleiermacher-digital.de/skos/S9478343> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Idealisiren"@de,
+        "idealising"@en .
+
+<https://schleiermacher-digital.de/skos/S9478347> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Differenz"@de,
+        "difference"@en .
+
+<https://schleiermacher-digital.de/skos/S9478348> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gesamtleben"@de,
+        "total life"@en .
+
+<https://schleiermacher-digital.de/skos/S9478355> a skos:Concept ;
+    skos:altLabel "Gemütsstimmung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gemüthsstimmung"@de,
+        "state of mind"@en .
+
+<https://schleiermacher-digital.de/skos/S9478358> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vorstellung"@de,
+        "imagination"@en .
+
+<https://schleiermacher-digital.de/skos/S9478360> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "ideal"@de,
+        "ideal"@en .
+
+<https://schleiermacher-digital.de/skos/S9478365> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Leben, gemeinsame"@de,
+        "life, common"@en .
+
+<https://schleiermacher-digital.de/skos/S9478366> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "europäisch"@de,
+        "european"@en .
+
+<https://schleiermacher-digital.de/skos/S9478400> a skos:Concept ;
+    skos:altLabel "Kirchenstyl"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kirchenstil"@de,
+        "church style"@en .
+
+<https://schleiermacher-digital.de/skos/S9478402> a skos:Concept ;
+    skos:altLabel "Kunst, bildende"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Künste, bildende"@de,
+        "visual arts"@en .
+
+<https://schleiermacher-digital.de/skos/S9478417> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Hervorbringen"@de,
+        "bringing forth"@en .
+
+<https://schleiermacher-digital.de/skos/S9478419> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "religiös"@de,
+        "religious"@en .
+
+<https://schleiermacher-digital.de/skos/S9478439> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstwelt"@de,
+        "art world"@en .
+
+<https://schleiermacher-digital.de/skos/S9478442> a skos:Concept ;
+    skos:altLabel "Selbsttätigkeit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Selbstthätigkeit"@de,
+        "self-activity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478443> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "real"@de,
+        "real"@en .
+
+<https://schleiermacher-digital.de/skos/S9478454> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstsinn"@de,
+        "art sense"@en .
+
+<https://schleiermacher-digital.de/skos/S9478455> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Praxis"@de,
+        "practice"@en .
+
+<https://schleiermacher-digital.de/skos/S9478456> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunsttrieb"@de,
+        "art drive"@en .
+
+<https://schleiermacher-digital.de/skos/S9478457> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Nationalität"@de,
+        "nationality"@en .
+
+<https://schleiermacher-digital.de/skos/S9478459> a skos:Concept ;
+    skos:altLabel "Geschmak"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geschmack"@de,
+        "taste"@en .
+
+<https://schleiermacher-digital.de/skos/S9478470> a skos:Concept ;
+    skos:altLabel "zweklos"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478219> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "zwecklos"@de,
+        "purposeless"@en .
+
+<https://schleiermacher-digital.de/skos/S9478496> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "pathematisch"@de,
+        "pathematical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478507> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Volk"@de,
+        "people"@en .
+
+<https://schleiermacher-digital.de/skos/S9478508> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Masse"@de,
+        "mass"@en .
+
+<https://schleiermacher-digital.de/skos/S9478513> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vereinigung"@de,
+        "unification"@en .
+
+<https://schleiermacher-digital.de/skos/S9478517> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Poesie"@de,
+        "poetry"@en .
+
+<https://schleiermacher-digital.de/skos/S9478521> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Ausdruck"@de,
+        "expression"@en .
+
+<https://schleiermacher-digital.de/skos/S9478525> a skos:Concept ;
+    skos:altLabel "Urteil"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Urtheil"@de,
+        "judgment"@en .
+
+<https://schleiermacher-digital.de/skos/S9478530> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Bindende"@de,
+        "binding"@en .
+
+<https://schleiermacher-digital.de/skos/S9478531> a skos:Concept ;
+    skos:altLabel "Leben, nationale"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Leben, nationelle"@de,
+        "life, national"@en .
+
+<https://schleiermacher-digital.de/skos/S9478534> a skos:Concept ;
+    skos:altLabel "Eigentümlichkeit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478247> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Eigenthümlichkeit"@de,
+        "peculiarity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478536> a skos:Concept ;
+    skos:altLabel "Nachbildung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Nachahmung"@de,
+        "imitation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478538> a skos:Concept ;
+    skos:altLabel "Selbstbewußtsein, unmittelbare"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478209> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Selbstbewußtseyn, unmittelbare"@de,
+        "self-consciousness, immediate"@en .
+
+<https://schleiermacher-digital.de/skos/S9478541> a skos:Concept ;
+    skos:altLabel "Kombination, freie"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478219> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Combination, freie"@de,
+        "combination, free"@en .
+
+<https://schleiermacher-digital.de/skos/S9478542> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "antik"@de,
+        "antique"@en .
+
+<https://schleiermacher-digital.de/skos/S9478546> a skos:Concept ;
+    skos:altLabel "Kunsttätigkeit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstthätigkeit"@de,
+        "artistic activity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478554> a skos:Concept ;
+    skos:altLabel "Ideale"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Ideal"@de,
+        "ideal"@en .
+
+<https://schleiermacher-digital.de/skos/S9478556> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Pathematische"@de,
+        "pathematical"@en .
+
+<https://schleiermacher-digital.de/skos/S9478561> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Schule"@de,
+        "school"@en .
+
+<https://schleiermacher-digital.de/skos/S9478568> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "moralisch"@de,
+        "moral"@en .
+
+<https://schleiermacher-digital.de/skos/S2853434> a skos:Concept ;
+    skos:altLabel "Tätigkeit"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Thätigkeit"@de,
+        "activity"@en .
+
+<https://schleiermacher-digital.de/skos/S8179528> a skos:Concept ;
+    skos:altLabel "Tragoedie"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Tragödie"@de,
+        "tragedy"@en .
+
+<https://schleiermacher-digital.de/skos/S9478138> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Sinnlichkeit"@de,
+        "sensuality"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q1195509> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q1195509> .
+
+<https://schleiermacher-digital.de/skos/S9478150> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Leben, öffentliche"@de,
+        "life, public"@en .
+
+<https://schleiermacher-digital.de/skos/S9478156> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Schönheit"@de,
+        "beauty"@en .
+
+<https://schleiermacher-digital.de/skos/S9478166> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Schöne"@de,
+        "beautiful"@en .
+
+<https://schleiermacher-digital.de/skos/S9478172> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Typus"@de,
+        "type"@en .
+
+<https://schleiermacher-digital.de/skos/S9478173> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Individualität"@de,
+        "individuality"@en .
+
+<https://schleiermacher-digital.de/skos/S9478293> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "αἴσθησις"@el,
+        "aisthesis"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q35986> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q35986> .
+
+<https://schleiermacher-digital.de/skos/S9478298> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mensch"@de,
+        "human"@en .
+
+<https://schleiermacher-digital.de/skos/S9478317> a skos:Concept ;
+    skos:altLabel "Subjekt"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Subject"@de,
+        "subject"@en .
+
+<https://schleiermacher-digital.de/skos/S9478323> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "organisch"@de,
+        "organic"@en .
+
+<https://schleiermacher-digital.de/skos/S9478328> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Erregung"@de,
+        "excitation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478340> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geschichte"@de,
+        "history"@en .
+
+<https://schleiermacher-digital.de/skos/S9478346> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Form"@de,
+        "form"@en .
+
+<https://schleiermacher-digital.de/skos/S9478353> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mythologie"@de,
+        "mythology"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q9134> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q9134> .
+
+<https://schleiermacher-digital.de/skos/S9478359> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Urbildung"@de,
+        "primal formation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478390> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Wahrnehmung"@de,
+        "perception"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q160402> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q160402> .
+
+<https://schleiermacher-digital.de/skos/S9478404> a skos:Concept ;
+    skos:altLabel "Fantasie"@de,
+        "imagination"@en ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478219> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Phantasie"@de,
+        "fantasy"@en .
+
+<https://schleiermacher-digital.de/skos/S9478418> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Poetik"@de,
+        "poetics"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q835023> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q835023> .
+
+<https://schleiermacher-digital.de/skos/S9478428> a skos:Concept ;
+    skos:altLabel "Redekunst"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Rhetorik"@de,
+        "rhetoric"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q81009> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q81009> .
+
+<https://schleiermacher-digital.de/skos/S9478434> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gestalt"@de,
+        "shape"@en .
+
+<https://schleiermacher-digital.de/skos/S9478437> a skos:Concept ;
+    skos:altLabel "Selbstbewußtsein"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Selbstbewußtseyn"@de,
+        "self-consciousness"@en .
+
+<https://schleiermacher-digital.de/skos/S9478450> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Reformation"@de,
+        "reformation"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q12562> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q12562> .
+
+<https://schleiermacher-digital.de/skos/S9478452> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gefühl"@de,
+        "feeling"@en .
+
+<https://schleiermacher-digital.de/skos/S9478467> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Ausführung"@de,
+        "execution"@en .
+
+<https://schleiermacher-digital.de/skos/S9478473> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Arabeske"@de,
+        "arabesque"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q186599> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q186599> .
+
+<https://schleiermacher-digital.de/skos/S9478497> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gestaltung"@de,
+        "design"@en .
+
+<https://schleiermacher-digital.de/skos/S9478498> a skos:Concept ;
+    skos:altLabel "Mitteilung"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mittheilung"@de,
+        "communication"@en .
+
+<https://schleiermacher-digital.de/skos/S9478509> a skos:Concept ;
+    skos:altLabel "Gesamtbewußtsein"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Gesamtbewußtseyn"@de,
+        "total consciousness"@en .
+
+<https://schleiermacher-digital.de/skos/S9478535> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Religiöse"@de,
+        "religious"@en .
+
+<https://schleiermacher-digital.de/skos/S9478543> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstlose"@de,
+        "artless"@en .
+
+<https://schleiermacher-digital.de/skos/S9478548> a skos:Concept ;
+    skos:altLabel "Sittenlehre"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Ethik"@de,
+        "ethics"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q9465> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q9465> .
+
+<https://schleiermacher-digital.de/skos/S9478551> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Maß"@de,
+        "measure"@en .
+
+<https://schleiermacher-digital.de/skos/S9478552> a skos:Concept ;
+    skos:altLabel "Rezeptivität"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Receptivität"@de,
+        "receptivity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478557> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstgeschichte"@de,
+        "art history"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q50637> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q50637> .
+
+<https://schleiermacher-digital.de/skos/S9478564> a skos:Concept ;
+    skos:altLabel "eigentümlich"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "eigenthümlich"@de,
+        "peculiar"@en .
+
+<https://schleiermacher-digital.de/skos/S9478565> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Mimesis"@de,
+        "μίμησις"@el ;
+    skos:related <https://www.wikidata.org/wiki/Q468427> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q468427> .
+
+<https://www.wikidata.org/wiki/Q35986> skos:related <https://schleiermacher-digital.de/skos/S9478293>,
+        <https://schleiermacher-digital.de/skos/S9478392> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478293>,
+        <https://schleiermacher-digital.de/skos/S9478392> .
+
+<https://schleiermacher-digital.de/skos/S9478155> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Natur"@de,
+        "nature"@en .
+
+<https://schleiermacher-digital.de/skos/S9478158> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478219> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Vernunft"@de,
+        "reason"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q178354> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q178354> .
+
+<https://schleiermacher-digital.de/skos/S9478303> a skos:Concept ;
+    skos:altLabel "Produktion, freie"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Production, freie"@de,
+        "production, free"@en .
+
+<https://schleiermacher-digital.de/skos/S9478314> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Besinnung"@de,
+        "reflexion"@en .
+
+<https://schleiermacher-digital.de/skos/S9478316> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos/> ;
+    skos:prefLabel "Stimmung"@de,
+        "mood"@en .
+
+<https://schleiermacher-digital.de/skos/S9478362> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Virtuosität"@de,
+        "virtuosity"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q214970> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q214970> .
+
+<https://schleiermacher-digital.de/skos/S9478369> a skos:Concept ;
+    skos:altLabel "Produktion"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Production"@de,
+        "production"@en .
+
+<https://schleiermacher-digital.de/skos/S9478413> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Symbol"@de,
+        "symbol"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q80071> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q80071> .
+
+<https://schleiermacher-digital.de/skos/S9478423> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Erhabene"@de,
+        "sublime"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q999803> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q999803> .
+
+<https://schleiermacher-digital.de/skos/S9478446> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Theorie"@de,
+        "theory"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q17737> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q17737> .
+
+<https://schleiermacher-digital.de/skos/S9478458> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Genialität"@de,
+        "genius"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q185030> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q185030> .
+
+<https://schleiermacher-digital.de/skos/S9478468> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478219> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Spiel, freie"@de,
+        "play, free"@en .
+
+<https://schleiermacher-digital.de/skos/S9478478> a skos:Concept ;
+    skos:altLabel "Christentum"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Christenthum"@de,
+        "christianity"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q5043> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q5043> .
+
+<https://schleiermacher-digital.de/skos/S9478499> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geselligkeit"@de,
+        "sociability"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q1518315> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q1518315> .
+
+<https://schleiermacher-digital.de/skos/S9478519> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Leben, menschliche"@de,
+        "life, human"@en .
+
+<https://schleiermacher-digital.de/skos/S9478545> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "techne"@de,
+        "τέχνη"@el ;
+    skos:related <https://www.wikidata.org/wiki/Q735> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q735> .
+
+<https://schleiermacher-digital.de/skos/S9478559> a skos:Concept ;
+    skos:altLabel "Geschmacksurteil"@de,
+        "Geschmaksurtheil"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Geschmacksurtheil"@de,
+        "judgement of taste"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q1056332> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q1056332> .
+
+<https://schleiermacher-digital.de/skos/S9478566> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Darstellung"@de,
+        "representation"@en .
+
+<https://schleiermacher-digital.de/skos/S9478134> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Idee"@de,
+        "idea"@en .
+
+<https://schleiermacher-digital.de/skos/S9478304> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Künstler"@de,
+        "artist"@en .
+
+<https://schleiermacher-digital.de/skos/S9478332> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Wissenschaft"@de,
+        "science"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q336> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q336> .
+
+<https://schleiermacher-digital.de/skos/S9478391> a skos:Concept ;
+    skos:altLabel "Konzeption"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Conception"@de,
+        "conception"@en .
+
+<https://schleiermacher-digital.de/skos/S9478451> a skos:Concept ;
+    skos:altLabel "Bewußtsein"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Bewußtseyn"@de,
+        "consciousness"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q7087> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q7087> .
+
+<https://schleiermacher-digital.de/skos/S9478461> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Religion"@de,
+        "religion"@en ;
+    skos:related <https://www.wikidata.org/wiki/Q9174> ;
+    skos:relatedMatch <https://www.wikidata.org/wiki/Q9174> .
+
+<https://schleiermacher-digital.de/skos/S9478532> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478262> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Einzelne"@de,
+        "individual"@en .
+
+<https://schleiermacher-digital.de/skos/S9478562> a skos:Concept ;
+    skos:altLabel "Produktivität"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Productivität"@de,
+        "productivity"@en .
+
+<https://schleiermacher-digital.de/skos/S9478329> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Urbild"@de,
+        "archetype"@en .
+
+<https://schleiermacher-digital.de/skos/S9478339> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478219>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Bild"@de,
+        "image"@en .
+
+<https://schleiermacher-digital.de/skos/S9478392> a skos:Concept ;
+    skos:altLabel "Ästhetik"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Aesthetik"@de,
+        "aesthetics"@en ;
+    skos:related <http://d-nb.info/gnd/4000626-8>,
+        <https://www.wikidata.org/wiki/Q35986> ;
+    skos:relatedMatch <http://d-nb.info/gnd/4000626-8>,
+        <https://www.wikidata.org/wiki/Q35986> .
+
+<https://schleiermacher-digital.de/skos/S9478571> a skos:Concept ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunstwerk"@de,
+        "artwork"@en .
+
+<https://schleiermacher-digital.de/skos/S9478219> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478158>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478404>,
+        <https://schleiermacher-digital.de/skos/S9478468>,
+        <https://schleiermacher-digital.de/skos/S9478470>,
+        <https://schleiermacher-digital.de/skos/S9478541> ;
+    skos:prefLabel "Phantasie und Vernunft"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478199> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478134>,
+        <https://schleiermacher-digital.de/skos/S9478155>,
+        <https://schleiermacher-digital.de/skos/S9478166>,
+        <https://schleiermacher-digital.de/skos/S9478177>,
+        <https://schleiermacher-digital.de/skos/S9478182>,
+        <https://schleiermacher-digital.de/skos/S9478363>,
+        <https://schleiermacher-digital.de/skos/S9478423>,
+        <https://schleiermacher-digital.de/skos/S9478441>,
+        <https://schleiermacher-digital.de/skos/S9478468>,
+        <https://schleiermacher-digital.de/skos/S9478471>,
+        <https://schleiermacher-digital.de/skos/S9478539>,
+        <https://schleiermacher-digital.de/skos/S9478550> ;
+    skos:prefLabel "Das Schöne und das Erhabene"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478247> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478139>,
+        <https://schleiermacher-digital.de/skos/S9478167>,
+        <https://schleiermacher-digital.de/skos/S9478168>,
+        <https://schleiermacher-digital.de/skos/S9478299>,
+        <https://schleiermacher-digital.de/skos/S9478315>,
+        <https://schleiermacher-digital.de/skos/S9478332>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478357>,
+        <https://schleiermacher-digital.de/skos/S9478373>,
+        <https://schleiermacher-digital.de/skos/S9478413>,
+        <https://schleiermacher-digital.de/skos/S9478462>,
+        <https://schleiermacher-digital.de/skos/S9478477>,
+        <https://schleiermacher-digital.de/skos/S9478506>,
+        <https://schleiermacher-digital.de/skos/S9478517>,
+        <https://schleiermacher-digital.de/skos/S9478532>,
+        <https://schleiermacher-digital.de/skos/S9478534>,
+        <https://schleiermacher-digital.de/skos/S9478549>,
+        <https://schleiermacher-digital.de/skos/S9478553>,
+        <https://schleiermacher-digital.de/skos/S9478555>,
+        <https://schleiermacher-digital.de/skos/S9478564> ;
+    skos:prefLabel "Poesie vs. Philosophie"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478288> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S8179528>,
+        <https://schleiermacher-digital.de/skos/S9478126>,
+        <https://schleiermacher-digital.de/skos/S9478308>,
+        <https://schleiermacher-digital.de/skos/S9478312>,
+        <https://schleiermacher-digital.de/skos/S9478336>,
+        <https://schleiermacher-digital.de/skos/S9478347>,
+        <https://schleiermacher-digital.de/skos/S9478350>,
+        <https://schleiermacher-digital.de/skos/S9478400>,
+        <https://schleiermacher-digital.de/skos/S9478412>,
+        <https://schleiermacher-digital.de/skos/S9478419>,
+        <https://schleiermacher-digital.de/skos/S9478423>,
+        <https://schleiermacher-digital.de/skos/S9478435>,
+        <https://schleiermacher-digital.de/skos/S9478440>,
+        <https://schleiermacher-digital.de/skos/S9478513>,
+        <https://schleiermacher-digital.de/skos/S9478526>,
+        <https://schleiermacher-digital.de/skos/S9478567> ;
+    skos:prefLabel "Stilistik der Künste"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478196> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478136>,
+        <https://schleiermacher-digital.de/skos/S9478145>,
+        <https://schleiermacher-digital.de/skos/S9478179>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478331>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478354>,
+        <https://schleiermacher-digital.de/skos/S9478391>,
+        <https://schleiermacher-digital.de/skos/S9478404>,
+        <https://schleiermacher-digital.de/skos/S9478432>,
+        <https://schleiermacher-digital.de/skos/S9478463>,
+        <https://schleiermacher-digital.de/skos/S9478468>,
+        <https://schleiermacher-digital.de/skos/S9478473>,
+        <https://schleiermacher-digital.de/skos/S9478511>,
+        <https://schleiermacher-digital.de/skos/S9478517>,
+        <https://schleiermacher-digital.de/skos/S9478520>,
+        <https://schleiermacher-digital.de/skos/S9478524>,
+        <https://schleiermacher-digital.de/skos/S9478540>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Traum und Kunst"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478219>,
+        <https://schleiermacher-digital.de/skos/S9478259> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478209> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478131>,
+        <https://schleiermacher-digital.de/skos/S9478134>,
+        <https://schleiermacher-digital.de/skos/S9478137>,
+        <https://schleiermacher-digital.de/skos/S9478150>,
+        <https://schleiermacher-digital.de/skos/S9478152>,
+        <https://schleiermacher-digital.de/skos/S9478294>,
+        <https://schleiermacher-digital.de/skos/S9478305>,
+        <https://schleiermacher-digital.de/skos/S9478313>,
+        <https://schleiermacher-digital.de/skos/S9478340>,
+        <https://schleiermacher-digital.de/skos/S9478343>,
+        <https://schleiermacher-digital.de/skos/S9478352>,
+        <https://schleiermacher-digital.de/skos/S9478365>,
+        <https://schleiermacher-digital.de/skos/S9478400>,
+        <https://schleiermacher-digital.de/skos/S9478419>,
+        <https://schleiermacher-digital.de/skos/S9478437>,
+        <https://schleiermacher-digital.de/skos/S9478451>,
+        <https://schleiermacher-digital.de/skos/S9478461>,
+        <https://schleiermacher-digital.de/skos/S9478474>,
+        <https://schleiermacher-digital.de/skos/S9478478>,
+        <https://schleiermacher-digital.de/skos/S9478499>,
+        <https://schleiermacher-digital.de/skos/S9478509>,
+        <https://schleiermacher-digital.de/skos/S9478519>,
+        <https://schleiermacher-digital.de/skos/S9478531>,
+        <https://schleiermacher-digital.de/skos/S9478535>,
+        <https://schleiermacher-digital.de/skos/S9478538>,
+        <https://schleiermacher-digital.de/skos/S9478542>,
+        <https://schleiermacher-digital.de/skos/S9478569> ;
+    skos:prefLabel "Kunst und Religion"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478184> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S0720661>,
+        <https://schleiermacher-digital.de/skos/S2460831>,
+        <https://schleiermacher-digital.de/skos/S2853434>,
+        <https://schleiermacher-digital.de/skos/S3786610>,
+        <https://schleiermacher-digital.de/skos/S4620872>,
+        <https://schleiermacher-digital.de/skos/S9439407>,
+        <https://schleiermacher-digital.de/skos/S9478155>,
+        <https://schleiermacher-digital.de/skos/S9478156>,
+        <https://schleiermacher-digital.de/skos/S9478160>,
+        <https://schleiermacher-digital.de/skos/S9478166>,
+        <https://schleiermacher-digital.de/skos/S9478298>,
+        <https://schleiermacher-digital.de/skos/S9478304>,
+        <https://schleiermacher-digital.de/skos/S9478314>,
+        <https://schleiermacher-digital.de/skos/S9478321>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478346>,
+        <https://schleiermacher-digital.de/skos/S9478360>,
+        <https://schleiermacher-digital.de/skos/S9478417>,
+        <https://schleiermacher-digital.de/skos/S9478425>,
+        <https://schleiermacher-digital.de/skos/S9478434>,
+        <https://schleiermacher-digital.de/skos/S9478443>,
+        <https://schleiermacher-digital.de/skos/S9478469>,
+        <https://schleiermacher-digital.de/skos/S9478497>,
+        <https://schleiermacher-digital.de/skos/S9478519>,
+        <https://schleiermacher-digital.de/skos/S9478525>,
+        <https://schleiermacher-digital.de/skos/S9478532>,
+        <https://schleiermacher-digital.de/skos/S9478536>,
+        <https://schleiermacher-digital.de/skos/S9478552>,
+        <https://schleiermacher-digital.de/skos/S9478554>,
+        <https://schleiermacher-digital.de/skos/S9478562>,
+        <https://schleiermacher-digital.de/skos/S9478566>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Kunst als Nachahmung der Natur"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478259> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S7026987>,
+        <https://schleiermacher-digital.de/skos/S7595267>,
+        <https://schleiermacher-digital.de/skos/S8002896>,
+        <https://schleiermacher-digital.de/skos/S8179528>,
+        <https://schleiermacher-digital.de/skos/S9356778>,
+        <https://schleiermacher-digital.de/skos/S9478132>,
+        <https://schleiermacher-digital.de/skos/S9478134>,
+        <https://schleiermacher-digital.de/skos/S9478155>,
+        <https://schleiermacher-digital.de/skos/S9478156>,
+        <https://schleiermacher-digital.de/skos/S9478161>,
+        <https://schleiermacher-digital.de/skos/S9478172>,
+        <https://schleiermacher-digital.de/skos/S9478181>,
+        <https://schleiermacher-digital.de/skos/S9478308>,
+        <https://schleiermacher-digital.de/skos/S9478321>,
+        <https://schleiermacher-digital.de/skos/S9478323>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478343>,
+        <https://schleiermacher-digital.de/skos/S9478346>,
+        <https://schleiermacher-digital.de/skos/S9478360>,
+        <https://schleiermacher-digital.de/skos/S9478372>,
+        <https://schleiermacher-digital.de/skos/S9478391>,
+        <https://schleiermacher-digital.de/skos/S9478403>,
+        <https://schleiermacher-digital.de/skos/S9478413>,
+        <https://schleiermacher-digital.de/skos/S9478431>,
+        <https://schleiermacher-digital.de/skos/S9478443>,
+        <https://schleiermacher-digital.de/skos/S9478456>,
+        <https://schleiermacher-digital.de/skos/S9478504>,
+        <https://schleiermacher-digital.de/skos/S9478532>,
+        <https://schleiermacher-digital.de/skos/S9478547>,
+        <https://schleiermacher-digital.de/skos/S9478554>,
+        <https://schleiermacher-digital.de/skos/S9478560>,
+        <https://schleiermacher-digital.de/skos/S9478563>,
+        <https://schleiermacher-digital.de/skos/S9478564>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Das Ideale und das Antiideale"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478219> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478260> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478138>,
+        <https://schleiermacher-digital.de/skos/S9478142>,
+        <https://schleiermacher-digital.de/skos/S9478155>,
+        <https://schleiermacher-digital.de/skos/S9478156>,
+        <https://schleiermacher-digital.de/skos/S9478163>,
+        <https://schleiermacher-digital.de/skos/S9478166>,
+        <https://schleiermacher-digital.de/skos/S9478289>,
+        <https://schleiermacher-digital.de/skos/S9478293>,
+        <https://schleiermacher-digital.de/skos/S9478302>,
+        <https://schleiermacher-digital.de/skos/S9478304>,
+        <https://schleiermacher-digital.de/skos/S9478307>,
+        <https://schleiermacher-digital.de/skos/S9478320>,
+        <https://schleiermacher-digital.de/skos/S9478332>,
+        <https://schleiermacher-digital.de/skos/S9478337>,
+        <https://schleiermacher-digital.de/skos/S9478338>,
+        <https://schleiermacher-digital.de/skos/S9478349>,
+        <https://schleiermacher-digital.de/skos/S9478358>,
+        <https://schleiermacher-digital.de/skos/S9478390>,
+        <https://schleiermacher-digital.de/skos/S9478392>,
+        <https://schleiermacher-digital.de/skos/S9478402>,
+        <https://schleiermacher-digital.de/skos/S9478418>,
+        <https://schleiermacher-digital.de/skos/S9478421>,
+        <https://schleiermacher-digital.de/skos/S9478428>,
+        <https://schleiermacher-digital.de/skos/S9478446>,
+        <https://schleiermacher-digital.de/skos/S9478449>,
+        <https://schleiermacher-digital.de/skos/S9478455>,
+        <https://schleiermacher-digital.de/skos/S9478459>,
+        <https://schleiermacher-digital.de/skos/S9478472>,
+        <https://schleiermacher-digital.de/skos/S9478476>,
+        <https://schleiermacher-digital.de/skos/S9478496>,
+        <https://schleiermacher-digital.de/skos/S9478536>,
+        <https://schleiermacher-digital.de/skos/S9478545>,
+        <https://schleiermacher-digital.de/skos/S9478556>,
+        <https://schleiermacher-digital.de/skos/S9478559>,
+        <https://schleiermacher-digital.de/skos/S9478561>,
+        <https://schleiermacher-digital.de/skos/S9478562>,
+        <https://schleiermacher-digital.de/skos/S9478565>,
+        <https://schleiermacher-digital.de/skos/S9478568> ;
+    skos:prefLabel "Geschichte der Ästhetik"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478268> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478268> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478131>,
+        <https://schleiermacher-digital.de/skos/S9478134>,
+        <https://schleiermacher-digital.de/skos/S9478137>,
+        <https://schleiermacher-digital.de/skos/S9478142>,
+        <https://schleiermacher-digital.de/skos/S9478150>,
+        <https://schleiermacher-digital.de/skos/S9478153>,
+        <https://schleiermacher-digital.de/skos/S9478182>,
+        <https://schleiermacher-digital.de/skos/S9478292>,
+        <https://schleiermacher-digital.de/skos/S9478300>,
+        <https://schleiermacher-digital.de/skos/S9478303>,
+        <https://schleiermacher-digital.de/skos/S9478305>,
+        <https://schleiermacher-digital.de/skos/S9478322>,
+        <https://schleiermacher-digital.de/skos/S9478340>,
+        <https://schleiermacher-digital.de/skos/S9478345>,
+        <https://schleiermacher-digital.de/skos/S9478353>,
+        <https://schleiermacher-digital.de/skos/S9478364>,
+        <https://schleiermacher-digital.de/skos/S9478366>,
+        <https://schleiermacher-digital.de/skos/S9478368>,
+        <https://schleiermacher-digital.de/skos/S9478369>,
+        <https://schleiermacher-digital.de/skos/S9478415>,
+        <https://schleiermacher-digital.de/skos/S9478430>,
+        <https://schleiermacher-digital.de/skos/S9478438>,
+        <https://schleiermacher-digital.de/skos/S9478439>,
+        <https://schleiermacher-digital.de/skos/S9478450>,
+        <https://schleiermacher-digital.de/skos/S9478457>,
+        <https://schleiermacher-digital.de/skos/S9478461>,
+        <https://schleiermacher-digital.de/skos/S9478465>,
+        <https://schleiermacher-digital.de/skos/S9478478>,
+        <https://schleiermacher-digital.de/skos/S9478507>,
+        <https://schleiermacher-digital.de/skos/S9478508>,
+        <https://schleiermacher-digital.de/skos/S9478509>,
+        <https://schleiermacher-digital.de/skos/S9478515>,
+        <https://schleiermacher-digital.de/skos/S9478519>,
+        <https://schleiermacher-digital.de/skos/S9478531>,
+        <https://schleiermacher-digital.de/skos/S9478533>,
+        <https://schleiermacher-digital.de/skos/S9478535>,
+        <https://schleiermacher-digital.de/skos/S9478542>,
+        <https://schleiermacher-digital.de/skos/S9478557>,
+        <https://schleiermacher-digital.de/skos/S9478562> ;
+    skos:prefLabel "Geschichtlichkeit der Kunst"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478279> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S7026987>,
+        <https://schleiermacher-digital.de/skos/S8179528>,
+        <https://schleiermacher-digital.de/skos/S9478144>,
+        <https://schleiermacher-digital.de/skos/S9478172>,
+        <https://schleiermacher-digital.de/skos/S9478174>,
+        <https://schleiermacher-digital.de/skos/S9478175>,
+        <https://schleiermacher-digital.de/skos/S9478180>,
+        <https://schleiermacher-digital.de/skos/S9478314>,
+        <https://schleiermacher-digital.de/skos/S9478316>,
+        <https://schleiermacher-digital.de/skos/S9478317>,
+        <https://schleiermacher-digital.de/skos/S9478323>,
+        <https://schleiermacher-digital.de/skos/S9478328>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478346>,
+        <https://schleiermacher-digital.de/skos/S9478347>,
+        <https://schleiermacher-digital.de/skos/S9478348>,
+        <https://schleiermacher-digital.de/skos/S9478355>,
+        <https://schleiermacher-digital.de/skos/S9478358>,
+        <https://schleiermacher-digital.de/skos/S9478359>,
+        <https://schleiermacher-digital.de/skos/S9478361>,
+        <https://schleiermacher-digital.de/skos/S9478362>,
+        <https://schleiermacher-digital.de/skos/S9478367>,
+        <https://schleiermacher-digital.de/skos/S9478391>,
+        <https://schleiermacher-digital.de/skos/S9478393>,
+        <https://schleiermacher-digital.de/skos/S9478402>,
+        <https://schleiermacher-digital.de/skos/S9478434>,
+        <https://schleiermacher-digital.de/skos/S9478444>,
+        <https://schleiermacher-digital.de/skos/S9478445>,
+        <https://schleiermacher-digital.de/skos/S9478452>,
+        <https://schleiermacher-digital.de/skos/S9478458>,
+        <https://schleiermacher-digital.de/skos/S9478467>,
+        <https://schleiermacher-digital.de/skos/S9478497>,
+        <https://schleiermacher-digital.de/skos/S9478505>,
+        <https://schleiermacher-digital.de/skos/S9478512>,
+        <https://schleiermacher-digital.de/skos/S9478513>,
+        <https://schleiermacher-digital.de/skos/S9478514>,
+        <https://schleiermacher-digital.de/skos/S9478518>,
+        <https://schleiermacher-digital.de/skos/S9478521>,
+        <https://schleiermacher-digital.de/skos/S9478543>,
+        <https://schleiermacher-digital.de/skos/S9478558>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Identität und Differenz der Künste"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478205> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S9478133>,
+        <https://schleiermacher-digital.de/skos/S9478148>,
+        <https://schleiermacher-digital.de/skos/S9478165>,
+        <https://schleiermacher-digital.de/skos/S9478169>,
+        <https://schleiermacher-digital.de/skos/S9478172>,
+        <https://schleiermacher-digital.de/skos/S9478173>,
+        <https://schleiermacher-digital.de/skos/S9478174>,
+        <https://schleiermacher-digital.de/skos/S9478303>,
+        <https://schleiermacher-digital.de/skos/S9478304>,
+        <https://schleiermacher-digital.de/skos/S9478314>,
+        <https://schleiermacher-digital.de/skos/S9478316>,
+        <https://schleiermacher-digital.de/skos/S9478317>,
+        <https://schleiermacher-digital.de/skos/S9478323>,
+        <https://schleiermacher-digital.de/skos/S9478328>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478330>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478351>,
+        <https://schleiermacher-digital.de/skos/S9478355>,
+        <https://schleiermacher-digital.de/skos/S9478356>,
+        <https://schleiermacher-digital.de/skos/S9478359>,
+        <https://schleiermacher-digital.de/skos/S9478362>,
+        <https://schleiermacher-digital.de/skos/S9478369>,
+        <https://schleiermacher-digital.de/skos/S9478370>,
+        <https://schleiermacher-digital.de/skos/S9478391>,
+        <https://schleiermacher-digital.de/skos/S9478416>,
+        <https://schleiermacher-digital.de/skos/S9478420>,
+        <https://schleiermacher-digital.de/skos/S9478429>,
+        <https://schleiermacher-digital.de/skos/S9478434>,
+        <https://schleiermacher-digital.de/skos/S9478436>,
+        <https://schleiermacher-digital.de/skos/S9478442>,
+        <https://schleiermacher-digital.de/skos/S9478452>,
+        <https://schleiermacher-digital.de/skos/S9478458>,
+        <https://schleiermacher-digital.de/skos/S9478460>,
+        <https://schleiermacher-digital.de/skos/S9478467>,
+        <https://schleiermacher-digital.de/skos/S9478497>,
+        <https://schleiermacher-digital.de/skos/S9478498>,
+        <https://schleiermacher-digital.de/skos/S9478516>,
+        <https://schleiermacher-digital.de/skos/S9478521>,
+        <https://schleiermacher-digital.de/skos/S9478543>,
+        <https://schleiermacher-digital.de/skos/S9478551>,
+        <https://schleiermacher-digital.de/skos/S9478561>,
+        <https://schleiermacher-digital.de/skos/S9478562>,
+        <https://schleiermacher-digital.de/skos/S9478566>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Die Phasen der künstlerischen Praxis"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478219>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478279> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478262> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S2853434>,
+        <https://schleiermacher-digital.de/skos/S4155496>,
+        <https://schleiermacher-digital.de/skos/S4818188>,
+        <https://schleiermacher-digital.de/skos/S5660592>,
+        <https://schleiermacher-digital.de/skos/S7970988>,
+        <https://schleiermacher-digital.de/skos/S8192133>,
+        <https://schleiermacher-digital.de/skos/S9478144>,
+        <https://schleiermacher-digital.de/skos/S9478150>,
+        <https://schleiermacher-digital.de/skos/S9478154>,
+        <https://schleiermacher-digital.de/skos/S9478168>,
+        <https://schleiermacher-digital.de/skos/S9478170>,
+        <https://schleiermacher-digital.de/skos/S9478173>,
+        <https://schleiermacher-digital.de/skos/S9478178>,
+        <https://schleiermacher-digital.de/skos/S9478183>,
+        <https://schleiermacher-digital.de/skos/S9478294>,
+        <https://schleiermacher-digital.de/skos/S9478298>,
+        <https://schleiermacher-digital.de/skos/S9478300>,
+        <https://schleiermacher-digital.de/skos/S9478303>,
+        <https://schleiermacher-digital.de/skos/S9478304>,
+        <https://schleiermacher-digital.de/skos/S9478306>,
+        <https://schleiermacher-digital.de/skos/S9478313>,
+        <https://schleiermacher-digital.de/skos/S9478316>,
+        <https://schleiermacher-digital.de/skos/S9478318>,
+        <https://schleiermacher-digital.de/skos/S9478340>,
+        <https://schleiermacher-digital.de/skos/S9478348>,
+        <https://schleiermacher-digital.de/skos/S9478365>,
+        <https://schleiermacher-digital.de/skos/S9478366>,
+        <https://schleiermacher-digital.de/skos/S9478369>,
+        <https://schleiermacher-digital.de/skos/S9478433>,
+        <https://schleiermacher-digital.de/skos/S9478437>,
+        <https://schleiermacher-digital.de/skos/S9478448>,
+        <https://schleiermacher-digital.de/skos/S9478451>,
+        <https://schleiermacher-digital.de/skos/S9478454>,
+        <https://schleiermacher-digital.de/skos/S9478457>,
+        <https://schleiermacher-digital.de/skos/S9478461>,
+        <https://schleiermacher-digital.de/skos/S9478466>,
+        <https://schleiermacher-digital.de/skos/S9478479>,
+        <https://schleiermacher-digital.de/skos/S9478481>,
+        <https://schleiermacher-digital.de/skos/S9478498>,
+        <https://schleiermacher-digital.de/skos/S9478499>,
+        <https://schleiermacher-digital.de/skos/S9478500>,
+        <https://schleiermacher-digital.de/skos/S9478507>,
+        <https://schleiermacher-digital.de/skos/S9478508>,
+        <https://schleiermacher-digital.de/skos/S9478509>,
+        <https://schleiermacher-digital.de/skos/S9478519>,
+        <https://schleiermacher-digital.de/skos/S9478530>,
+        <https://schleiermacher-digital.de/skos/S9478532>,
+        <https://schleiermacher-digital.de/skos/S9478535>,
+        <https://schleiermacher-digital.de/skos/S9478537>,
+        <https://schleiermacher-digital.de/skos/S9478543>,
+        <https://schleiermacher-digital.de/skos/S9478546>,
+        <https://schleiermacher-digital.de/skos/S9478548>,
+        <https://schleiermacher-digital.de/skos/S9478551>,
+        <https://schleiermacher-digital.de/skos/S9478552>,
+        <https://schleiermacher-digital.de/skos/S9478566>,
+        <https://schleiermacher-digital.de/skos/S9478568>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel "Die Ethik der Kunst"@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos/S9478192> a skos:Concept ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:narrower <https://schleiermacher-digital.de/skos/S2460831>,
+        <https://schleiermacher-digital.de/skos/S2853434>,
+        <https://schleiermacher-digital.de/skos/S4155496>,
+        <https://schleiermacher-digital.de/skos/S7970988>,
+        <https://schleiermacher-digital.de/skos/S9478134>,
+        <https://schleiermacher-digital.de/skos/S9478143>,
+        <https://schleiermacher-digital.de/skos/S9478146>,
+        <https://schleiermacher-digital.de/skos/S9478158>,
+        <https://schleiermacher-digital.de/skos/S9478160>,
+        <https://schleiermacher-digital.de/skos/S9478162>,
+        <https://schleiermacher-digital.de/skos/S9478169>,
+        <https://schleiermacher-digital.de/skos/S9478170>,
+        <https://schleiermacher-digital.de/skos/S9478171>,
+        <https://schleiermacher-digital.de/skos/S9478173>,
+        <https://schleiermacher-digital.de/skos/S9478176>,
+        <https://schleiermacher-digital.de/skos/S9478183>,
+        <https://schleiermacher-digital.de/skos/S9478298>,
+        <https://schleiermacher-digital.de/skos/S9478303>,
+        <https://schleiermacher-digital.de/skos/S9478304>,
+        <https://schleiermacher-digital.de/skos/S9478314>,
+        <https://schleiermacher-digital.de/skos/S9478316>,
+        <https://schleiermacher-digital.de/skos/S9478317>,
+        <https://schleiermacher-digital.de/skos/S9478319>,
+        <https://schleiermacher-digital.de/skos/S9478322>,
+        <https://schleiermacher-digital.de/skos/S9478328>,
+        <https://schleiermacher-digital.de/skos/S9478329>,
+        <https://schleiermacher-digital.de/skos/S9478331>,
+        <https://schleiermacher-digital.de/skos/S9478332>,
+        <https://schleiermacher-digital.de/skos/S9478337>,
+        <https://schleiermacher-digital.de/skos/S9478339>,
+        <https://schleiermacher-digital.de/skos/S9478359>,
+        <https://schleiermacher-digital.de/skos/S9478369>,
+        <https://schleiermacher-digital.de/skos/S9478371>,
+        <https://schleiermacher-digital.de/skos/S9478391>,
+        <https://schleiermacher-digital.de/skos/S9478392>,
+        <https://schleiermacher-digital.de/skos/S9478404>,
+        <https://schleiermacher-digital.de/skos/S9478417>,
+        <https://schleiermacher-digital.de/skos/S9478422>,
+        <https://schleiermacher-digital.de/skos/S9478437>,
+        <https://schleiermacher-digital.de/skos/S9478439>,
+        <https://schleiermacher-digital.de/skos/S9478442>,
+        <https://schleiermacher-digital.de/skos/S9478446>,
+        <https://schleiermacher-digital.de/skos/S9478447>,
+        <https://schleiermacher-digital.de/skos/S9478451>,
+        <https://schleiermacher-digital.de/skos/S9478452>,
+        <https://schleiermacher-digital.de/skos/S9478454>,
+        <https://schleiermacher-digital.de/skos/S9478455>,
+        <https://schleiermacher-digital.de/skos/S9478456>,
+        <https://schleiermacher-digital.de/skos/S9478459>,
+        <https://schleiermacher-digital.de/skos/S9478467>,
+        <https://schleiermacher-digital.de/skos/S9478468>,
+        <https://schleiermacher-digital.de/skos/S9478470>,
+        <https://schleiermacher-digital.de/skos/S9478496>,
+        <https://schleiermacher-digital.de/skos/S9478498>,
+        <https://schleiermacher-digital.de/skos/S9478525>,
+        <https://schleiermacher-digital.de/skos/S9478530>,
+        <https://schleiermacher-digital.de/skos/S9478532>,
+        <https://schleiermacher-digital.de/skos/S9478534>,
+        <https://schleiermacher-digital.de/skos/S9478538>,
+        <https://schleiermacher-digital.de/skos/S9478541>,
+        <https://schleiermacher-digital.de/skos/S9478545>,
+        <https://schleiermacher-digital.de/skos/S9478546>,
+        <https://schleiermacher-digital.de/skos/S9478551>,
+        <https://schleiermacher-digital.de/skos/S9478552>,
+        <https://schleiermacher-digital.de/skos/S9478556>,
+        <https://schleiermacher-digital.de/skos/S9478559>,
+        <https://schleiermacher-digital.de/skos/S9478562>,
+        <https://schleiermacher-digital.de/skos/S9478564>,
+        <https://schleiermacher-digital.de/skos/S9478566>,
+        <https://schleiermacher-digital.de/skos/S9478570>,
+        <https://schleiermacher-digital.de/skos/S9478571> ;
+    skos:prefLabel """Zum Begriff der Kunst als freie Produktivität des
+            Künstlers"""@de ;
+    skos:related <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478219>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:topConceptOf <https://schleiermacher-digital.de/skos> .
+
+<https://schleiermacher-digital.de/skos> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478199>,
+        <https://schleiermacher-digital.de/skos/S9478205>,
+        <https://schleiermacher-digital.de/skos/S9478209>,
+        <https://schleiermacher-digital.de/skos/S9478219>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478259>,
+        <https://schleiermacher-digital.de/skos/S9478260>,
+        <https://schleiermacher-digital.de/skos/S9478262>,
+        <https://schleiermacher-digital.de/skos/S9478268>,
+        <https://schleiermacher-digital.de/skos/S9478279>,
+        <https://schleiermacher-digital.de/skos/S9478288> ;
+    skos:prefLabel "Thesaurus zu den Ästhetikvorlesungen von Friedrich Schleiermacher"@de .
+

@@ -1,0 +1,288 @@
+/* 
+Copyright 2021 Berlin-Brandenburg Academy of Sciences and Humanities
+
+This file is part of ediarum (ediarum.org)
+
+ediarum.SKOS.edit is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published 
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ediarum.SKOS.edit is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+For more Information see <http://www.gnu.org/licenses/>.
+*/
+
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+@namespace telota "http://www.telota.de";
+@namespace skos "http://www.w3.org/2004/02/skos/core#";
+@namespace rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+
+@font-face{
+    font-family: "BBAWfont";
+    src:url("../fonts/linlibertine_r.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "BBAWfont-italic";
+    src:url("../fonts/linlibertine_ri.ttf");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Biolinum";
+    src: url("../fonts/linbiolinum_r.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Biolinum-italic";
+    src: url("../fonts/linbiolinum_ri.ttf");
+    font-weight: normal;
+}
+
+/*RDF:before {
+	display: block;
+	content: url(gfx/skos_large.png) " " oxy_xpath('string-join(//skos:ConceptScheme/skos:prefLabel/string())') ", " oxy_xpath('string-join(//skos:ConceptScheme/@rdf:about/string())');
+	 font-weight: bold;
+	 font-size: 30px;
+	 color: black;
+}*/
+RDF {
+    padding: 1em;
+    font-family: BBAWfont;
+    margin-right: 4cm;
+    margin-left: 1cm;
+}
+type {display: none;}
+/* ################ conceptScheme ############ */
+
+
+/*ConceptScheme prefLabel[xml|lang='de'] {
+	display: block;
+	content: url(gfx/skos_large.png) " " oxy_xpath('string-join(//skos:ConceptScheme/skos:prefLabel/string())') ", " oxy_xpath('string-join(//skos:ConceptScheme/@rdf:about/string())');
+	 font-weight: bold;
+	 font-size: 30px;
+	 color: black;
+	 padding: 1em 0 1em 0;
+}*/
+ConceptScheme prefLabel[xml|lang='de'] {
+	padding: 1em 0 1em 0;
+	font-weight: bold;
+	 font-size: 30px;
+	 color: black;
+}
+/*ConceptScheme prefLabel[xml|lang='de'] {
+	display: block;
+	 font-weight: bold;
+	 font-size: 30px;
+	 color: black;
+}
+
+ConceptScheme prefLabel[xml|lang='de']:after {
+	content:  "Übersicht:";
+	display: block;
+	 padding: 1em 0 1em 0;
+	 color: black;
+	 font-weight: bold;
+}*/
+ConceptScheme:before {
+    	content: "Konzeptschema (" attr(rdf|about) "): ";
+    	display: block;
+    	font-weight: normal;
+    	color: gray;
+    }
+ConceptScheme {
+	border-bottom: 1px solid #99CCFF;
+    padding: 1em 0 1em 0;
+    color: gray;
+}
+ConceptScheme:focus-within {
+    background-color: #EBEBEB;
+}
+
+hasTopConcept {
+	content: oxy_xpath(oxy_concat('string-join(//skos:Concept[@rdf:about = "', attr('rdf:resource') '"]/skos:prefLabel[@xml:lang="de"]/string())')) ;
+/*	content: oxy_xpath('substring-after(@rdf:resource,"#")');*/
+/*	content: attr(rdf|resource);*/
+	display: block;
+	}
+
+/* ################ Collections ############ */
+
+* {
+    -oxy-display-tags: none;
+}
+Collection {
+	display: block;
+    border-bottom: 1px solid #99CCFF;
+    padding: 1em 0 1em 0;
+}
+
+Collection:focus-within {
+    background-color: #FDF0D8;
+}
+
+Collection:before {
+    	content: "Gruppe (" attr(rdf|about) "): ";
+    	display: block;
+    	font-weight: normal;
+    	color: gray;
+    	font-size: 75%;
+    }
+    
+member:before {
+	content: "Mitglied: ";
+    color: gray;
+    font-size: 75%;
+}
+
+    
+/* ################ Concepts ############ */
+
+Concept {
+	display: block;
+    border-bottom: 1px solid #99CCFF;
+    padding: 1em 0 1em 0;
+}
+
+Concept:focus-within {
+    background-color: #DCEDF9;
+}
+
+Concept:before {
+    	content: "Konzept (" attr(rdf|about) "): ";
+    	display: block;
+    	font-weight: normal;
+    	color: gray;
+    	font-size: 75%;
+    }
+    
+Collection prefLabel[xml|lang='de'], Concept prefLabel[xml|lang='de'] {
+	display: block;
+	font-weight: bold;
+	-oxy-placeholder-content: "Label (de)";
+	padding: 1em 0 1em 0;
+}
+prefLabel[xml|lang='en']:before {
+    	content: "Englische Bezeichnung: ";
+    	display: block;
+    	color: gray;
+    	font-size: 75%;
+    }
+prefLabel[xml|lang='en'] {
+ -oxy-placeholder-content: "Label (en)";
+    display: block;
+    padding: 0 0 1em 0;
+}
+altLabel:before {
+    	content: "Alternative Bezeichnung: ";
+    	display: block;
+    	color: gray;
+    	font-size: 75%;
+    }
+altLabel {
+-oxy-placeholder-content: "Label (alt)";
+	display: block;
+	padding: 0 0 1em 0;
+}
+
+definition:before {
+	content: "Definition ";
+	display: block;
+	color: gray;
+    font-size: 75%;
+}
+
+definition {
+	-oxy-placeholder-content: "Definition eingeben";
+	display:block;
+	padding: 1em 0 1em 0;
+}
+
+narrower:before {
+	content: "Unterkonzept: ";
+    color: gray;
+    font-size: 75%;
+}
+
+broader:before {
+ 	content: "Überkonzept: ";
+    color: gray;
+    font-size: 75%;
+}
+related:before {
+ 	content: "Relation: ";
+    color: gray;
+    font-size: 75%;
+}
+exactMatch:before {
+ 	content: "Exakt gleichbedeutend mit: ";
+    color: gray;
+    font-size: 75%;
+}
+closeMatch:before {
+ 	content: "Gleichbedeutend mit: ";
+    color: gray;
+    font-size: 75%;
+}
+narrowMatch:before {
+ 	content: "Externes Unterkonzept: ";
+    color: gray;
+    font-size: 75%;
+}
+broadMatch:before {
+ 	content: "Externes Überkonzept: ";
+    color: gray;
+    font-size: 75%;
+}
+relatedMatch:before {
+ 	content: "Externe Relation: ";
+    color: gray;
+    font-size: 75%;
+}
+member, broader, related, narrower {
+	content: oxy_xpath(oxy_concat('string-join(//skos:Concept[@rdf:about = "', attr('rdf:resource') '"]/skos:prefLabel[1]/string())')) ;
+	display: block;
+    padding: 0 0 .75em 0;
+}
+
+exactMatch, closeMatch, broadMatch, narrowMatch, relatedMatch {
+	content: attr(rdf|resource) ;
+	display: block;
+    padding: 0 0 .75em 0;
+}
+
+
+
+inSchema:before {
+	content: "Zugehöriges Schema: ";
+	display: block;
+	color: gray;
+    font-size: 75%;
+}
+
+inSchema {
+	content: attr(rdf|resource);
+	padding: 0 0 1em 0;
+	
+}
+
+topConceptOf:before {
+	content: "Hauptkonzept des Schemas: ";
+	display: block;
+	color: gray;
+    font-size: 75%;
+}
+
+topConceptOf {
+	content: attr(rdf|resource);
+	padding: 0 0 1em 0;
+	
+}

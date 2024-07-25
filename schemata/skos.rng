@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.w3.org/XML/1998/namespace" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:telota="http://www.telota.de" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="rdf:RDF">
+      <attribute name="telota:doctype">
+        <data type="NCName"/>
+      </attribute>
+      <attribute>
+        <name>id</name>
+        <data type="NCName"/>
+      </attribute>
+      <attribute>
+        <name>lang</name>
+        <data type="NCName"/>
+      </attribute>
+      <element name="skos:ConceptScheme">
+        <attribute name="rdf:about">
+          <data type="anyURI"/>
+        </attribute>
+        <ref name="rdf.type"/>
+        <ref name="skos.prefLabel"/>
+        <oneOrMore>
+          <element name="skos:hasTopConcept">
+            <attribute name="rdf:resource">
+              <data type="anyURI"/>
+            </attribute>
+          </element>
+        </oneOrMore>
+      </element>
+      <oneOrMore>
+        <element name="skos:Collection">
+          <attribute name="rdf:about">
+            <data type="anyURI"/>
+          </attribute>
+          <ref name="rdf.type"/>
+          <ref name="skos.prefLabel"/>
+          <oneOrMore>
+            <element name="skos:member">
+              <attribute name="rdf:resource">
+                <data type="anyURI"/>
+              </attribute>
+            </element>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+      <oneOrMore>
+        <element name="skos:Concept">
+          <attribute name="rdf:about">
+            <data type="anyURI"/>
+          </attribute>
+          <oneOrMore>
+            <choice>
+              <ref name="rdf.type"/>
+              <ref name="skos.prefLabel"/>
+            </choice>
+          </oneOrMore>
+          <zeroOrMore>
+            <element name="skos:altLabel">
+              <attribute>
+                <name>lang</name>
+                <data type="NCName"/>
+              </attribute>
+              <text/>
+            </element>
+          </zeroOrMore>
+          <element name="skos:inScheme">
+            <attribute name="rdf:resource">
+              <data type="anyURI"/>
+            </attribute>
+          </element>
+          <choice>
+            <oneOrMore>
+              <choice>
+                <element name="skos:broader">
+                  <attribute name="rdf:resource">
+                    <data type="anyURI"/>
+                  </attribute>
+                </element>
+                <element name="skos:relatedMatch">
+                  <attribute name="rdf:resource">
+                    <data type="anyURI"/>
+                  </attribute>
+                </element>
+              </choice>
+            </oneOrMore>
+            <oneOrMore>
+              <choice>
+                <element name="skos:narrower">
+                  <attribute name="rdf:resource">
+                    <data type="anyURI"/>
+                  </attribute>
+                </element>
+                <element name="skos:related">
+                  <attribute name="rdf:resource">
+                    <data type="anyURI"/>
+                  </attribute>
+                </element>
+                <element name="skos:topConceptOf">
+                  <attribute name="rdf:resource">
+                    <data type="anyURI"/>
+                  </attribute>
+                </element>
+              </choice>
+            </oneOrMore>
+          </choice>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+  <define name="rdf.type">
+    <element name="rdf:type">
+      <attribute name="rdf:resource">
+        <data type="anyURI"/>
+      </attribute>
+    </element>
+  </define>
+  <define name="skos.prefLabel">
+    <element name="skos:prefLabel">
+      <attribute>
+        <name>lang</name>
+        <data type="NCName"/>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+</grammar>
