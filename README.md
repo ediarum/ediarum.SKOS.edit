@@ -6,11 +6,15 @@ In diesem README finden Sie die Dokumentation des Datenmodells und Frameworks, s
 
 Version: 1.0.0
 
-© 2021-2024 Berlin-Brandenburgische Akademie der Wissenschaften
+2021-2024 Berlin-Brandenburgische Akademie der Wissenschaften
 
 Teil von ediarum https://www.ediarum.org/index.html (ediarum@bbaw.de)
 
 Entwickelt von [TELOTA](http://www.bbaw.de/telota), der DH-Arbeitsgruppe der Berlin-Brandenburgischen Akademie der Wissenschaften telota@bbaw.de
+
+## Zitierhinweis
+
+Klappenbach, Lou (2024): ediarum.SKOS.edit (v1.0.0).
 
 ## Lizenz
 
@@ -34,9 +38,9 @@ ediarum.SKOS ist im Rahmen des DFG-Projekts "Schleiermachers Ästhetikvorlesunge
 
 Ziel des Projektes war es, die Themen und Begriffe der Ästhetikvorlesungen Schleiermachers in ihrem Verlauf zu analysieren. Dafür sollten diese systematisch digital erfasst und mit den Vorlesungen verknüpft werden. Da die Vorlesungen bereits mit ediarum ediert wurden, wurde ein ediarum-kompatible Lösung entwickelt. SKOS wurde als Datenmodell gewählt, da es über die nötige Semantik verfügt, um Themen und Begriffe zu ordnen und miteinander zu verknüpfen (Relationen erfassen). Allen Begriffen und Themen wurde zur Referenzierung und Nachnutzung mit eindeutigen URIs ausgestattet.
 
-Den Quellcode des Frameworks finden Sie unter XXXX.  
+Den Quellcode des Frameworks finden Sie auf [Github](https://github.com/ediarum/ediarum.SKOS.edit).  
 
-Der so entstandene Thesaurus wurde hier XXXX veröffentlicht.
+Der so entstandene Thesaurus wird künftig in einem Repositorium veröffentlicht.
 
 Eine Webansicht der mit dem Framework erstellten Daten finden Sie unter https://schleiermacher-digital.de/skos.
  
@@ -48,7 +52,7 @@ Eine Webansicht der mit dem Framework erstellten Daten finden Sie unter https://
 |*Code und Dokumentation*| Github |
 |*Entwicklung*| Lou Klappenbach|
 |*Wissenschaftlicher Mitarbeiter des DFG-Projektes*| Holden Kelm|
-|*Koordination*| Frederike Neuber|
+|*Koordination und Konzeption DH-Methodik*| Frederike Neuber|
 
 
 ## Inhalt des Repos

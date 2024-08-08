@@ -1,0 +1,19 @@
+{
+    "creators": [
+        {
+            "orcid": "https://orcid.org/0000-0001-6587-3353",
+            "name": Lou Klappenbach"
+        }
+    ],
+    "version":"1.0.0",
+    "language":"german",
+    "license": "GPL-3.0",
+    "doi":"",
+    "title": "ediarum.SKOS.edit",
+	"publication_date":"2024-08-02",
+	"description":"ediarum.SKOS.edit is an oXygen framework for the creation and management of SKOS-based thesauri. ediarum.SKOS.edit can be used independently of other ediarum modules and locally.",
+    "keywords": ["Digital Humanities","SKOS","Thesaurus","Philosophy"],
+    "upload_type":"software",
+    "notes":""
+
+}

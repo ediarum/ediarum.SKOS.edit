@@ -1,0 +1,18 @@
+message: "If you use this software, please cite it using these metadata."
+authors:
+  - family-names: Klappenbach
+    given-names: Lou    
+    orcid: "https://orcid.org/0000-0001-6587-3353"
+title: ediarum.SKOS.edit 
+abstract: "ediarum.SKOS.edit is an oXygen framework for the creation and management of SKOS-based thesauri. ediarum.SKOS.edit can be used independently of other ediarum modules and locally."
+type: software
+date-released: "2024-08-02"
+version: 1.0.0
+repository-code: "https://github.com/ediarum/ediarum.SKOS.edit"
+identifiers:
+  - description: "All versions of ediarum.SKOS.edit in Zenodo"
+    type: doi
+    value: 
+license: "GPL-3.0"
+url: "https://www.ediarum.org"
+cff-version: 1.2.0
