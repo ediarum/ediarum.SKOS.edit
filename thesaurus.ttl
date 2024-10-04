@@ -1,6 +1,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <https://schleiermacher-digital.de/skos/S4663595> a skos:Collection ;
+    skos:definition """Der Thesaurus enthält nur Wörter und Begriffe, die in den
+            zugrunde liegenden Textpassagen der Vorlesungsdokumente tatsächlich vorkommen. Dabei
+            wurde der originale (historische) Wortlaut berücksichtigt. Mitunter werden alternative
+            Schreibweisen angegeben, weil es um 1800 noch keine verbindlichen orthographischen
+            Standards gab. Auch Synonyme werden als alternative Bezeichnungen einbezogen. Neben den
+            überwiegend substantivischen sind auch einige adjektivische Wortformen enthalten sowie
+            einige Verbindungen von beiden, insofern sie für die verschiedenen thematischen
+            Zusammenhänge von Bedeutung sind. Für die Auswahl und Zuordnung eines Begriffs zu einem
+            Thema wurden qualitative und quantitative Kriterien berücksichtigt, die sich
+            entsprechend der Bedeutungs- und der Zeichenebene unterteilen lassen: 1. Relevanz: das
+            Erfüllen einer semantischen Funktion eines Wortes bzw. Begriffs in einem thematischen
+            Zusammenhang (ohne besonders häufig vorkommen zu müssen), 2. Signifikanz: das
+            (überdurchschnittlich) häufige Vorkommen eines Wortes bzw. Begriffs innerhalb eines
+            thematischen Zusammenhangs."""@de ;
     skos:member <https://schleiermacher-digital.de/skos/S0720661>,
         <https://schleiermacher-digital.de/skos/S2460831>,
         <https://schleiermacher-digital.de/skos/S2853434>,
@@ -47,7 +61,6 @@
         <https://schleiermacher-digital.de/skos/S9478167>,
         <https://schleiermacher-digital.de/skos/S9478168>,
         <https://schleiermacher-digital.de/skos/S9478169>,
-        <https://schleiermacher-digital.de/skos/S9478170>,
         <https://schleiermacher-digital.de/skos/S9478171>,
         <https://schleiermacher-digital.de/skos/S9478172>,
         <https://schleiermacher-digital.de/skos/S9478173>,
@@ -60,10 +73,8 @@
         <https://schleiermacher-digital.de/skos/S9478180>,
         <https://schleiermacher-digital.de/skos/S9478181>,
         <https://schleiermacher-digital.de/skos/S9478182>,
-        <https://schleiermacher-digital.de/skos/S9478183>,
         <https://schleiermacher-digital.de/skos/S9478289>,
         <https://schleiermacher-digital.de/skos/S9478292>,
-        <https://schleiermacher-digital.de/skos/S9478293>,
         <https://schleiermacher-digital.de/skos/S9478294>,
         <https://schleiermacher-digital.de/skos/S9478298>,
         <https://schleiermacher-digital.de/skos/S9478299>,
@@ -168,7 +179,6 @@
         <https://schleiermacher-digital.de/skos/S9478446>,
         <https://schleiermacher-digital.de/skos/S9478447>,
         <https://schleiermacher-digital.de/skos/S9478448>,
-        <https://schleiermacher-digital.de/skos/S9478449>,
         <https://schleiermacher-digital.de/skos/S9478450>,
         <https://schleiermacher-digital.de/skos/S9478451>,
         <https://schleiermacher-digital.de/skos/S9478452>,
@@ -266,6 +276,15 @@
     skos:prefLabel "Wörter und Begriffe"@de .
 
 <https://schleiermacher-digital.de/skos/S7852481> a skos:Collection ;
+    skos:definition """Im Rahmen des Thesaurus wird ein Thema als ein inhaltlicher
+            Zusammenhang aufgefasst, der durch eine Gruppe von relevanten und signifikanten Wörtern
+            und Begriffen bzw. durch ein themenspezifisches Begriffsfeld repräsentiert wird. Dieses
+            enthält in der Regel sowohl themenspezifische als auch themenübergreifende Wörter und
+            Begriffe. Der Aufstellung, Eingrenzung und Relationierung der Themen liegt keine
+            automatische Themenmodellierung zugrunde, sondern ein manuelles, auf Lektüre und
+            Interpretation der einzelnen Vorlesungsdokumente basierendes Annotationsverfahren.
+            Unterstützend wurden jedoch digitale Textanalysen zur Bestimmung des Vorkommens und der
+            Häufigkeit der Wörter und Begriffe durchgeführt."""@de ;
     skos:member <https://schleiermacher-digital.de/skos/S9478184>,
         <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478196>,
@@ -282,8 +301,6 @@
         <https://schleiermacher-digital.de/skos/S9478288> ;
     skos:prefLabel "Themen"@de .
 
-<https://schleiermacher-digital.de/skos/> a skos:ConceptScheme .
-
 <https://schleiermacher-digital.de/skos/S9478146> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
@@ -292,6 +309,78 @@
 
 <http://d-nb.info/gnd/4000626-8> skos:related <https://schleiermacher-digital.de/skos/S9478392> ;
     skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478392> .
+
+<http://www.wikidata.org/entity/Q1056332> skos:related <https://schleiermacher-digital.de/skos/S9478559> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478559> .
+
+<http://www.wikidata.org/entity/Q1195509> skos:related <https://schleiermacher-digital.de/skos/S9478138> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478138> .
+
+<http://www.wikidata.org/entity/Q12562> skos:related <https://schleiermacher-digital.de/skos/S9478450> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478450> .
+
+<http://www.wikidata.org/entity/Q1518315> skos:related <https://schleiermacher-digital.de/skos/S9478499> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478499> .
+
+<http://www.wikidata.org/entity/Q160402> skos:related <https://schleiermacher-digital.de/skos/S9478390> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478390> .
+
+<http://www.wikidata.org/entity/Q17737> skos:related <https://schleiermacher-digital.de/skos/S9478446> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478446> .
+
+<http://www.wikidata.org/entity/Q178354> skos:related <https://schleiermacher-digital.de/skos/S9478158> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478158> .
+
+<http://www.wikidata.org/entity/Q185030> skos:related <https://schleiermacher-digital.de/skos/S9478458> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478458> .
+
+<http://www.wikidata.org/entity/Q186599> skos:related <https://schleiermacher-digital.de/skos/S9478473> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478473> .
+
+<http://www.wikidata.org/entity/Q214970> skos:related <https://schleiermacher-digital.de/skos/S9478362> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478362> .
+
+<http://www.wikidata.org/entity/Q336> skos:related <https://schleiermacher-digital.de/skos/S9478332> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478332> .
+
+<http://www.wikidata.org/entity/Q35986> skos:related <https://schleiermacher-digital.de/skos/S9478392> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478392> .
+
+<http://www.wikidata.org/entity/Q468427> skos:related <https://schleiermacher-digital.de/skos/S9478565> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478565> .
+
+<http://www.wikidata.org/entity/Q5043> skos:related <https://schleiermacher-digital.de/skos/S9478478> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478478> .
+
+<http://www.wikidata.org/entity/Q50637> skos:related <https://schleiermacher-digital.de/skos/S9478557> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478557> .
+
+<http://www.wikidata.org/entity/Q7087> skos:related <https://schleiermacher-digital.de/skos/S9478451> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478451> .
+
+<http://www.wikidata.org/entity/Q735> skos:related <https://schleiermacher-digital.de/skos/S9478545> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478545> .
+
+<http://www.wikidata.org/entity/Q80071> skos:related <https://schleiermacher-digital.de/skos/S9478413> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478413> .
+
+<http://www.wikidata.org/entity/Q81009> skos:related <https://schleiermacher-digital.de/skos/S9478428> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478428> .
+
+<http://www.wikidata.org/entity/Q835023> skos:related <https://schleiermacher-digital.de/skos/S9478418> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478418> .
+
+<http://www.wikidata.org/entity/Q9134> skos:related <https://schleiermacher-digital.de/skos/S9478353> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478353> .
+
+<http://www.wikidata.org/entity/Q9174> skos:related <https://schleiermacher-digital.de/skos/S9478461> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478461> .
+
+<http://www.wikidata.org/entity/Q9465> skos:related <https://schleiermacher-digital.de/skos/S9478548> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478548> .
+
+<http://www.wikidata.org/entity/Q999803> skos:related <https://schleiermacher-digital.de/skos/S9478423> ;
+    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478423> .
 
 <https://schleiermacher-digital.de/skos/S0720661> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
@@ -344,7 +433,7 @@
     skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "symbolisch"@de,
-        "symbolic"@en .
+        "symbolic (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9439407> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
@@ -356,7 +445,7 @@
     skos:broader <https://schleiermacher-digital.de/skos/S9478288> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "zierlich"@de,
-        "dainty"@en .
+        "dainty (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478132> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
@@ -842,12 +931,6 @@
     skos:prefLabel "Gesellschaft"@de,
         "society"@en .
 
-<https://schleiermacher-digital.de/skos/S9478449> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "Dichtkunst"@de,
-        "poetry"@en .
-
 <https://schleiermacher-digital.de/skos/S9478460> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
@@ -978,7 +1061,7 @@
     skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "politisch"@de,
-        "political"@en .
+        "political (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478516> a skos:Concept ;
     skos:altLabel "Gemüt"@de ;
@@ -1109,75 +1192,6 @@
     skos:prefLabel "Zwecklosigkeit"@de,
         "purposelessness"@en .
 
-<https://www.wikidata.org/wiki/Q1056332> skos:related <https://schleiermacher-digital.de/skos/S9478559> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478559> .
-
-<https://www.wikidata.org/wiki/Q1195509> skos:related <https://schleiermacher-digital.de/skos/S9478138> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478138> .
-
-<https://www.wikidata.org/wiki/Q12562> skos:related <https://schleiermacher-digital.de/skos/S9478450> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478450> .
-
-<https://www.wikidata.org/wiki/Q1518315> skos:related <https://schleiermacher-digital.de/skos/S9478499> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478499> .
-
-<https://www.wikidata.org/wiki/Q160402> skos:related <https://schleiermacher-digital.de/skos/S9478390> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478390> .
-
-<https://www.wikidata.org/wiki/Q17737> skos:related <https://schleiermacher-digital.de/skos/S9478446> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478446> .
-
-<https://www.wikidata.org/wiki/Q178354> skos:related <https://schleiermacher-digital.de/skos/S9478158> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478158> .
-
-<https://www.wikidata.org/wiki/Q185030> skos:related <https://schleiermacher-digital.de/skos/S9478458> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478458> .
-
-<https://www.wikidata.org/wiki/Q186599> skos:related <https://schleiermacher-digital.de/skos/S9478473> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478473> .
-
-<https://www.wikidata.org/wiki/Q214970> skos:related <https://schleiermacher-digital.de/skos/S9478362> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478362> .
-
-<https://www.wikidata.org/wiki/Q336> skos:related <https://schleiermacher-digital.de/skos/S9478332> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478332> .
-
-<https://www.wikidata.org/wiki/Q468427> skos:related <https://schleiermacher-digital.de/skos/S9478565> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478565> .
-
-<https://www.wikidata.org/wiki/Q5043> skos:related <https://schleiermacher-digital.de/skos/S9478478> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478478> .
-
-<https://www.wikidata.org/wiki/Q50637> skos:related <https://schleiermacher-digital.de/skos/S9478557> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478557> .
-
-<https://www.wikidata.org/wiki/Q7087> skos:related <https://schleiermacher-digital.de/skos/S9478451> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478451> .
-
-<https://www.wikidata.org/wiki/Q735> skos:related <https://schleiermacher-digital.de/skos/S9478545> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478545> .
-
-<https://www.wikidata.org/wiki/Q80071> skos:related <https://schleiermacher-digital.de/skos/S9478413> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478413> .
-
-<https://www.wikidata.org/wiki/Q81009> skos:related <https://schleiermacher-digital.de/skos/S9478428> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478428> .
-
-<https://www.wikidata.org/wiki/Q835023> skos:related <https://schleiermacher-digital.de/skos/S9478418> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478418> .
-
-<https://www.wikidata.org/wiki/Q9134> skos:related <https://schleiermacher-digital.de/skos/S9478353> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478353> .
-
-<https://www.wikidata.org/wiki/Q9174> skos:related <https://schleiermacher-digital.de/skos/S9478461> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478461> .
-
-<https://www.wikidata.org/wiki/Q9465> skos:related <https://schleiermacher-digital.de/skos/S9478548> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478548> .
-
-<https://www.wikidata.org/wiki/Q999803> skos:related <https://schleiermacher-digital.de/skos/S9478423> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478423> .
-
 <https://schleiermacher-digital.de/skos/S2460831> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
         <https://schleiermacher-digital.de/skos/S9478192> ;
@@ -1226,7 +1240,7 @@
         <https://schleiermacher-digital.de/skos/S9478268> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "geschichtlich"@de,
-        "historical"@en .
+        "historical (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478144> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
@@ -1257,13 +1271,6 @@
     skos:prefLabel "selbstthätig"@de,
         "self-acting"@en .
 
-<https://schleiermacher-digital.de/skos/S9478170> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
-        <https://schleiermacher-digital.de/skos/S9478262> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "Individuum"@de,
-        "individual"@en .
-
 <https://schleiermacher-digital.de/skos/S9478174> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478279> ;
@@ -1278,13 +1285,6 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "colossal"@de,
         "colossal"@en .
-
-<https://schleiermacher-digital.de/skos/S9478183> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
-        <https://schleiermacher-digital.de/skos/S9478262> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "Individuelle"@de,
-        "individual"@en .
 
 <https://schleiermacher-digital.de/skos/S9478294> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
@@ -1314,7 +1314,7 @@
         <https://schleiermacher-digital.de/skos/S9478288> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "komisch"@de,
-        "comic"@en .
+        "comic (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478313> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
@@ -1393,7 +1393,7 @@
         <https://schleiermacher-digital.de/skos/S9478259> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "ideal"@de,
-        "ideal"@en .
+        "ideal (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478365> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
@@ -1437,7 +1437,7 @@
         <https://schleiermacher-digital.de/skos/S9478288> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "religiös"@de,
-        "religious"@en .
+        "religious (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478439> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -1459,7 +1459,7 @@
         <https://schleiermacher-digital.de/skos/S9478259> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "real"@de,
-        "real"@en .
+        "real (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478454> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -1510,7 +1510,7 @@
         <https://schleiermacher-digital.de/skos/S9478260> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "pathematisch"@de,
-        "pathematical"@en .
+        "pathematical (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478507> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478262>,
@@ -1532,13 +1532,6 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Vereinigung"@de,
         "unification"@en .
-
-<https://schleiermacher-digital.de/skos/S9478517> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478196>,
-        <https://schleiermacher-digital.de/skos/S9478247> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "Poesie"@de,
-        "poetry"@en .
 
 <https://schleiermacher-digital.de/skos/S9478521> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
@@ -1669,8 +1662,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Sinnlichkeit"@de,
         "sensuality"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q1195509> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q1195509> .
+    skos:related <http://www.wikidata.org/entity/Q1195509> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q1195509> .
 
 <https://schleiermacher-digital.de/skos/S9478150> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
@@ -1711,14 +1704,6 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Individualität"@de,
         "individuality"@en .
-
-<https://schleiermacher-digital.de/skos/S9478293> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "αἴσθησις"@el,
-        "aisthesis"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q35986> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q35986> .
 
 <https://schleiermacher-digital.de/skos/S9478298> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -1774,8 +1759,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Mythologie"@de,
         "mythology"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q9134> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q9134> .
+    skos:related <http://www.wikidata.org/entity/Q9134> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q9134> .
 
 <https://schleiermacher-digital.de/skos/S9478359> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -1790,8 +1775,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Wahrnehmung"@de,
         "perception"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q160402> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q160402> .
+    skos:related <http://www.wikidata.org/entity/Q160402> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q160402> .
 
 <https://schleiermacher-digital.de/skos/S9478404> a skos:Concept ;
     skos:altLabel "Fantasie"@de,
@@ -1808,8 +1793,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Poetik"@de,
         "poetics"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q835023> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q835023> .
+    skos:related <http://www.wikidata.org/entity/Q835023> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q835023> .
 
 <https://schleiermacher-digital.de/skos/S9478428> a skos:Concept ;
     skos:altLabel "Redekunst"@de ;
@@ -1817,8 +1802,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Rhetorik"@de,
         "rhetoric"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q81009> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q81009> .
+    skos:related <http://www.wikidata.org/entity/Q81009> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q81009> .
 
 <https://schleiermacher-digital.de/skos/S9478434> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -1842,8 +1827,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Reformation"@de,
         "reformation"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q12562> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q12562> .
+    skos:related <http://www.wikidata.org/entity/Q12562> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q12562> .
 
 <https://schleiermacher-digital.de/skos/S9478452> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -1866,8 +1851,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Arabeske"@de,
         "arabesque"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q186599> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q186599> .
+    skos:related <http://www.wikidata.org/entity/Q186599> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q186599> .
 
 <https://schleiermacher-digital.de/skos/S9478497> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -1895,6 +1880,15 @@
     skos:prefLabel "Gesamtbewußtseyn"@de,
         "total consciousness"@en .
 
+<https://schleiermacher-digital.de/skos/S9478517> a skos:Concept ;
+    skos:altLabel "Dichtkunst"@de ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478196>,
+        <https://schleiermacher-digital.de/skos/S9478247>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Poesie"@de,
+        "poetry"@en .
+
 <https://schleiermacher-digital.de/skos/S9478535> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
         <https://schleiermacher-digital.de/skos/S9478262>,
@@ -1917,8 +1911,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Ethik"@de,
         "ethics"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q9465> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q9465> .
+    skos:related <http://www.wikidata.org/entity/Q9465> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q9465> .
 
 <https://schleiermacher-digital.de/skos/S9478551> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -1942,8 +1936,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Kunstgeschichte"@de,
         "art history"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q50637> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q50637> .
+    skos:related <http://www.wikidata.org/entity/Q50637> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q50637> .
 
 <https://schleiermacher-digital.de/skos/S9478564> a skos:Concept ;
     skos:altLabel "eigentümlich"@de ;
@@ -1952,20 +1946,15 @@
         <https://schleiermacher-digital.de/skos/S9478259> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "eigenthümlich"@de,
-        "peculiar"@en .
+        "peculiar (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9478565> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Mimesis"@de,
         "μίμησις"@el ;
-    skos:related <https://www.wikidata.org/wiki/Q468427> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q468427> .
-
-<https://www.wikidata.org/wiki/Q35986> skos:related <https://schleiermacher-digital.de/skos/S9478293>,
-        <https://schleiermacher-digital.de/skos/S9478392> ;
-    skos:relatedMatch <https://schleiermacher-digital.de/skos/S9478293>,
-        <https://schleiermacher-digital.de/skos/S9478392> .
+    skos:related <http://www.wikidata.org/entity/Q468427> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q468427> .
 
 <https://schleiermacher-digital.de/skos/S9478155> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -1982,8 +1971,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Vernunft"@de,
         "reason"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q178354> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q178354> .
+    skos:related <http://www.wikidata.org/entity/Q178354> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q178354> .
 
 <https://schleiermacher-digital.de/skos/S9478303> a skos:Concept ;
     skos:altLabel "Produktion, freie"@de ;
@@ -2009,7 +1998,7 @@
         <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478262>,
         <https://schleiermacher-digital.de/skos/S9478279> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos/> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Stimmung"@de,
         "mood"@en .
 
@@ -2019,8 +2008,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Virtuosität"@de,
         "virtuosity"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q214970> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q214970> .
+    skos:related <http://www.wikidata.org/entity/Q214970> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q214970> .
 
 <https://schleiermacher-digital.de/skos/S9478369> a skos:Concept ;
     skos:altLabel "Produktion"@de ;
@@ -2038,8 +2027,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Symbol"@de,
         "symbol"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q80071> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q80071> .
+    skos:related <http://www.wikidata.org/entity/Q80071> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q80071> .
 
 <https://schleiermacher-digital.de/skos/S9478423> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478199>,
@@ -2047,8 +2036,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Erhabene"@de,
         "sublime"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q999803> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q999803> .
+    skos:related <http://www.wikidata.org/entity/Q999803> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q999803> .
 
 <https://schleiermacher-digital.de/skos/S9478446> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -2056,8 +2045,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Theorie"@de,
         "theory"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q17737> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q17737> .
+    skos:related <http://www.wikidata.org/entity/Q17737> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q17737> .
 
 <https://schleiermacher-digital.de/skos/S9478458> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478205>,
@@ -2065,8 +2054,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Genialität"@de,
         "genius"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q185030> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q185030> .
+    skos:related <http://www.wikidata.org/entity/Q185030> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q185030> .
 
 <https://schleiermacher-digital.de/skos/S9478468> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
@@ -2084,8 +2073,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Christenthum"@de,
         "christianity"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q5043> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q5043> .
+    skos:related <http://www.wikidata.org/entity/Q5043> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q5043> .
 
 <https://schleiermacher-digital.de/skos/S9478499> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
@@ -2093,8 +2082,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Geselligkeit"@de,
         "sociability"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q1518315> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q1518315> .
+    skos:related <http://www.wikidata.org/entity/Q1518315> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q1518315> .
 
 <https://schleiermacher-digital.de/skos/S9478519> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -2111,8 +2100,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "techne"@de,
         "τέχνη"@el ;
-    skos:related <https://www.wikidata.org/wiki/Q735> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q735> .
+    skos:related <http://www.wikidata.org/entity/Q735> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q735> .
 
 <https://schleiermacher-digital.de/skos/S9478559> a skos:Concept ;
     skos:altLabel "Geschmacksurteil"@de,
@@ -2122,8 +2111,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Geschmacksurtheil"@de,
         "judgement of taste"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q1056332> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q1056332> .
+    skos:related <http://www.wikidata.org/entity/Q1056332> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q1056332> .
 
 <https://schleiermacher-digital.de/skos/S9478566> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -2161,8 +2150,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Wissenschaft"@de,
         "science"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q336> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q336> .
+    skos:related <http://www.wikidata.org/entity/Q336> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q336> .
 
 <https://schleiermacher-digital.de/skos/S9478391> a skos:Concept ;
     skos:altLabel "Konzeption"@de ;
@@ -2183,8 +2172,8 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Bewußtseyn"@de,
         "consciousness"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q7087> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q7087> .
+    skos:related <http://www.wikidata.org/entity/Q7087> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q7087> .
 
 <https://schleiermacher-digital.de/skos/S9478461> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478209>,
@@ -2193,10 +2182,11 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Religion"@de,
         "religion"@en ;
-    skos:related <https://www.wikidata.org/wiki/Q9174> ;
-    skos:relatedMatch <https://www.wikidata.org/wiki/Q9174> .
+    skos:related <http://www.wikidata.org/entity/Q9174> ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q9174> .
 
 <https://schleiermacher-digital.de/skos/S9478532> a skos:Concept ;
+    skos:altLabel "Individuum"@de ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
         <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478247>,
@@ -2240,16 +2230,18 @@
         "image"@en .
 
 <https://schleiermacher-digital.de/skos/S9478392> a skos:Concept ;
-    skos:altLabel "Ästhetik"@de ;
+    skos:altLabel "Ästhetik"@de,
+        "αἴσθησις"@el,
+        "aisthesis"@la ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478260> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Aesthetik"@de,
         "aesthetics"@en ;
     skos:related <http://d-nb.info/gnd/4000626-8>,
-        <https://www.wikidata.org/wiki/Q35986> ;
+        <http://www.wikidata.org/entity/Q35986> ;
     skos:relatedMatch <http://d-nb.info/gnd/4000626-8>,
-        <https://www.wikidata.org/wiki/Q35986> .
+        <http://www.wikidata.org/entity/Q35986> .
 
 <https://schleiermacher-digital.de/skos/S9478571> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -2271,7 +2263,8 @@
         <https://schleiermacher-digital.de/skos/S9478468>,
         <https://schleiermacher-digital.de/skos/S9478470>,
         <https://schleiermacher-digital.de/skos/S9478541> ;
-    skos:prefLabel "Phantasie und Vernunft"@de ;
+    skos:prefLabel "Phantasie und Vernunft"@de,
+        "fantasy and reason"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478196>,
         <https://schleiermacher-digital.de/skos/S9478205>,
@@ -2292,7 +2285,8 @@
         <https://schleiermacher-digital.de/skos/S9478471>,
         <https://schleiermacher-digital.de/skos/S9478539>,
         <https://schleiermacher-digital.de/skos/S9478550> ;
-    skos:prefLabel "Das Schöne und das Erhabene"@de ;
+    skos:prefLabel "Das Schöne und das Erhabene"@de,
+        "the beautiful and the sublime"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478259>,
         <https://schleiermacher-digital.de/skos/S9478288> ;
     skos:topConceptOf <https://schleiermacher-digital.de/skos> .
@@ -2319,7 +2313,8 @@
         <https://schleiermacher-digital.de/skos/S9478553>,
         <https://schleiermacher-digital.de/skos/S9478555>,
         <https://schleiermacher-digital.de/skos/S9478564> ;
-    skos:prefLabel "Poesie vs. Philosophie"@de ;
+    skos:prefLabel "Poesie vs. Philosophie"@de,
+        "poetry vs. philosophy"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478279> ;
     skos:topConceptOf <https://schleiermacher-digital.de/skos> .
 
@@ -2341,7 +2336,8 @@
         <https://schleiermacher-digital.de/skos/S9478513>,
         <https://schleiermacher-digital.de/skos/S9478526>,
         <https://schleiermacher-digital.de/skos/S9478567> ;
-    skos:prefLabel "Stilistik der Künste"@de ;
+    skos:prefLabel "Stilistik der Künste"@de,
+        "stylistics of the arts"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478199>,
         <https://schleiermacher-digital.de/skos/S9478209>,
@@ -2371,7 +2367,8 @@
         <https://schleiermacher-digital.de/skos/S9478524>,
         <https://schleiermacher-digital.de/skos/S9478540>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Traum und Kunst"@de ;
+    skos:prefLabel "Traum und Kunst"@de,
+        "dream and art"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478219>,
@@ -2407,7 +2404,8 @@
         <https://schleiermacher-digital.de/skos/S9478538>,
         <https://schleiermacher-digital.de/skos/S9478542>,
         <https://schleiermacher-digital.de/skos/S9478569> ;
-    skos:prefLabel "Kunst und Religion"@de ;
+    skos:prefLabel "Kunst und Religion"@de,
+        "art and religion"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478262>,
@@ -2449,7 +2447,8 @@
         <https://schleiermacher-digital.de/skos/S9478562>,
         <https://schleiermacher-digital.de/skos/S9478566>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Kunst als Nachahmung der Natur"@de ;
+    skos:prefLabel "Kunst als Nachahmung der Natur"@de,
+        "art as an imitation of nature"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478259>,
         <https://schleiermacher-digital.de/skos/S9478260> ;
@@ -2491,7 +2490,8 @@
         <https://schleiermacher-digital.de/skos/S9478563>,
         <https://schleiermacher-digital.de/skos/S9478564>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Das Ideale und das Antiideale"@de ;
+    skos:prefLabel "Das Ideale und das Antiideale"@de,
+        "the ideal and the anti-ideal"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478184>,
         <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478196>,
@@ -2508,7 +2508,6 @@
         <https://schleiermacher-digital.de/skos/S9478163>,
         <https://schleiermacher-digital.de/skos/S9478166>,
         <https://schleiermacher-digital.de/skos/S9478289>,
-        <https://schleiermacher-digital.de/skos/S9478293>,
         <https://schleiermacher-digital.de/skos/S9478302>,
         <https://schleiermacher-digital.de/skos/S9478304>,
         <https://schleiermacher-digital.de/skos/S9478307>,
@@ -2525,12 +2524,12 @@
         <https://schleiermacher-digital.de/skos/S9478421>,
         <https://schleiermacher-digital.de/skos/S9478428>,
         <https://schleiermacher-digital.de/skos/S9478446>,
-        <https://schleiermacher-digital.de/skos/S9478449>,
         <https://schleiermacher-digital.de/skos/S9478455>,
         <https://schleiermacher-digital.de/skos/S9478459>,
         <https://schleiermacher-digital.de/skos/S9478472>,
         <https://schleiermacher-digital.de/skos/S9478476>,
         <https://schleiermacher-digital.de/skos/S9478496>,
+        <https://schleiermacher-digital.de/skos/S9478517>,
         <https://schleiermacher-digital.de/skos/S9478536>,
         <https://schleiermacher-digital.de/skos/S9478545>,
         <https://schleiermacher-digital.de/skos/S9478556>,
@@ -2539,7 +2538,8 @@
         <https://schleiermacher-digital.de/skos/S9478562>,
         <https://schleiermacher-digital.de/skos/S9478565>,
         <https://schleiermacher-digital.de/skos/S9478568> ;
-    skos:prefLabel "Geschichte der Ästhetik"@de ;
+    skos:prefLabel "Geschichte der Ästhetik"@de,
+        "history of aesthetics"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478184>,
         <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478268> ;
@@ -2586,7 +2586,8 @@
         <https://schleiermacher-digital.de/skos/S9478542>,
         <https://schleiermacher-digital.de/skos/S9478557>,
         <https://schleiermacher-digital.de/skos/S9478562> ;
-    skos:prefLabel "Geschichtlichkeit der Kunst"@de ;
+    skos:prefLabel "Die Geschichtlichkeit der Kunst"@de,
+        "the historicity of art"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478209>,
@@ -2640,7 +2641,8 @@
         <https://schleiermacher-digital.de/skos/S9478543>,
         <https://schleiermacher-digital.de/skos/S9478558>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Identität und Differenz der Künste"@de ;
+    skos:prefLabel "Identität und Differenz der Künste"@de,
+        "identity and difference of the arts"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478247>,
@@ -2696,7 +2698,8 @@
         <https://schleiermacher-digital.de/skos/S9478562>,
         <https://schleiermacher-digital.de/skos/S9478566>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Die Phasen der künstlerischen Praxis"@de ;
+    skos:prefLabel "Die Phasen der künstlerischen Praxis"@de,
+        "the phases of artistic practice"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478196>,
         <https://schleiermacher-digital.de/skos/S9478209>,
@@ -2718,10 +2721,8 @@
         <https://schleiermacher-digital.de/skos/S9478150>,
         <https://schleiermacher-digital.de/skos/S9478154>,
         <https://schleiermacher-digital.de/skos/S9478168>,
-        <https://schleiermacher-digital.de/skos/S9478170>,
         <https://schleiermacher-digital.de/skos/S9478173>,
         <https://schleiermacher-digital.de/skos/S9478178>,
-        <https://schleiermacher-digital.de/skos/S9478183>,
         <https://schleiermacher-digital.de/skos/S9478294>,
         <https://schleiermacher-digital.de/skos/S9478298>,
         <https://schleiermacher-digital.de/skos/S9478300>,
@@ -2765,7 +2766,8 @@
         <https://schleiermacher-digital.de/skos/S9478566>,
         <https://schleiermacher-digital.de/skos/S9478568>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Die Ethik der Kunst"@de ;
+    skos:prefLabel "Die Ethik der Kunst"@de,
+        "the ethics of art"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478205>,
         <https://schleiermacher-digital.de/skos/S9478209>,
@@ -2787,11 +2789,9 @@
         <https://schleiermacher-digital.de/skos/S9478160>,
         <https://schleiermacher-digital.de/skos/S9478162>,
         <https://schleiermacher-digital.de/skos/S9478169>,
-        <https://schleiermacher-digital.de/skos/S9478170>,
         <https://schleiermacher-digital.de/skos/S9478171>,
         <https://schleiermacher-digital.de/skos/S9478173>,
         <https://schleiermacher-digital.de/skos/S9478176>,
-        <https://schleiermacher-digital.de/skos/S9478183>,
         <https://schleiermacher-digital.de/skos/S9478298>,
         <https://schleiermacher-digital.de/skos/S9478303>,
         <https://schleiermacher-digital.de/skos/S9478304>,
@@ -2847,8 +2847,8 @@
         <https://schleiermacher-digital.de/skos/S9478566>,
         <https://schleiermacher-digital.de/skos/S9478570>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel """Zum Begriff der Kunst als freie Produktivität des
-            Künstlers"""@de ;
+    skos:prefLabel "Zur Theorie der Kunst als freie Produktivität des Künstlers"@de,
+        "on the theory of art as the free productivity of the artist"@en ;
     skos:related <https://schleiermacher-digital.de/skos/S9478184>,
         <https://schleiermacher-digital.de/skos/S9478196>,
         <https://schleiermacher-digital.de/skos/S9478205>,

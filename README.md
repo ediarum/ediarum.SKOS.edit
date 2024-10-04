@@ -319,6 +319,18 @@ Eine Inferenz kann durch einfaches Markieren und Entfernen gelöscht werden. Um 
 
 Über die Aktion "Aktionsübersicht öffnen", wird die documentation.html geöffnet. Hier finden Sie einen Übersicht über alle implementierten Aktionen. Dies kann für Entwickler:innen bei Anpassungs- oder Erweiterungsarbeiten hilfreich sein.
 
+## Validierung
+Für die Validierung der erstellten Daten können folgende Tools verwendet werden:
+
+* https://github.com/NatLibFi/Skosify
+* https://github.com/cmader/qSKOS/
+
+## Turtle-Export (.ttl)
+
+Mit Skosify lässt sich zudem die mit dem Framework erstellte XML-Datei in eine Turtle-Datei umwandeln. Nach der Installation (siehe Doku https://github.com/NatLibFi/Skosify) kann dies kann über die Kommandozeile ausgeführt werden: 
+
+`skosify thesaurus.xml -o thesaurus.ttl --label "Mein Thesaurus"` 
+
 ## Quellen und weiterführende Informationen
 
 Baker, Thomas u. a. (2013): Key Choices in the Design of Simple Knowledge Organization System (SKOS). Journal of Web Semantics 20:35–49. DOI: 10.1016/j.websem.2013.05.001.

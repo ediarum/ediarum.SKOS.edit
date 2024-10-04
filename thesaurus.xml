@@ -34,6 +34,15 @@
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478205"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478259"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478219"/>
+        <skos:definition xml:lang="de">Im Rahmen des Thesaurus wird ein Thema als ein inhaltlicher
+            Zusammenhang aufgefasst, der durch eine Gruppe von relevanten und signifikanten Wörtern
+            und Begriffen bzw. durch ein themenspezifisches Begriffsfeld repräsentiert wird. Dieses
+            enthält in der Regel sowohl themenspezifische als auch themenübergreifende Wörter und
+            Begriffe. Der Aufstellung, Eingrenzung und Relationierung der Themen liegt keine
+            automatische Themenmodellierung zugrunde, sondern ein manuelles, auf Lektüre und
+            Interpretation der einzelnen Vorlesungsdokumente basierendes Annotationsverfahren.
+            Unterstützend wurden jedoch digitale Textanalysen zur Bestimmung des Vorkommens und der
+            Häufigkeit der Wörter und Begriffe durchgeführt.</skos:definition>
     </skos:Collection>
     <skos:Collection rdf:about="https://schleiermacher-digital.de/skos/S4663595">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
@@ -42,7 +51,6 @@
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478445"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478392"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478148"/>
-        <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478293"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478430"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478550"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478431"/>
@@ -74,7 +82,6 @@
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478391"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478514"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478566"/>
-        <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478449"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478175"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478558"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478347"/>
@@ -144,8 +151,6 @@
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478319"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478447"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478173"/>
-        <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478183"/>
-        <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478170"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478474"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478400"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478152"/>
@@ -300,14 +305,27 @@
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478470"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478570"/>
         <skos:member rdf:resource="https://schleiermacher-digital.de/skos/S9478393"/>
+        <skos:definition xml:lang="de">Der Thesaurus enthält nur Wörter und Begriffe, die in den
+            zugrunde liegenden Textpassagen der Vorlesungsdokumente tatsächlich vorkommen. Dabei
+            wurde der originale (historische) Wortlaut berücksichtigt. Mitunter werden alternative
+            Schreibweisen angegeben, weil es um 1800 noch keine verbindlichen orthographischen
+            Standards gab. Auch Synonyme werden als alternative Bezeichnungen einbezogen. Neben den
+            überwiegend substantivischen sind auch einige adjektivische Wortformen enthalten sowie
+            einige Verbindungen von beiden, insofern sie für die verschiedenen thematischen
+            Zusammenhänge von Bedeutung sind. Für die Auswahl und Zuordnung eines Begriffs zu einem
+            Thema wurden qualitative und quantitative Kriterien berücksichtigt, die sich
+            entsprechend der Bedeutungs- und der Zeichenebene unterteilen lassen: 1. Relevanz: das
+            Erfüllen einer semantischen Funktion eines Wortes bzw. Begriffs in einem thematischen
+            Zusammenhang (ohne besonders häufig vorkommen zu müssen), 2. Signifikanz: das
+            (überdurchschnittlich) häufige Vorkommen eines Wortes bzw. Begriffs innerhalb eines
+            thematischen Zusammenhangs.</skos:definition>
     </skos:Collection>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478260">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Geschichte der Ästhetik</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">history of aesthetics</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478392"/>
-        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478293"/>
-        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478449"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478289"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478307"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478166"/>
@@ -347,10 +365,12 @@
         <skos:related rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:related rdf:resource="https://schleiermacher-digital.de/skos/S9478184"/>
         <skos:related rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
+        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478517"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478184">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Kunst als Nachahmung der Natur</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">art as an imitation of nature</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478566"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478532"/>
@@ -391,8 +411,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478192">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Zum Begriff der Kunst als freie Produktivität des
-            Künstlers</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zur Theorie der Kunst als freie Produktivität des Künstlers</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">on the theory of art as the free productivity of the artist</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478392"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478446"/>
@@ -416,7 +436,6 @@
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478328"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478459"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478559"/>
-        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478170"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478173"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478319"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478322"/>
@@ -450,7 +469,6 @@
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478422"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478371"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478447"/>
-        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478183"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478146"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478369"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478452"/>
@@ -481,6 +499,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478262">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Die Ethik der Kunst</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">the ethics of art</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478566"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478532"/>
@@ -488,7 +507,6 @@
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478365"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478150"/>
         <skos:topConceptOf rdf:resource="https://schleiermacher-digital.de/skos"/>
-        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478170"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478173"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478546"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478498"/>
@@ -505,7 +523,6 @@
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478366"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478340"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478499"/>
-        <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478183"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478543"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478508"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478551"/>
@@ -549,7 +566,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478268">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Geschichtlichkeit der Kunst</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Die Geschichtlichkeit der Kunst</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">the historicity of art</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478519"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478150"/>
@@ -602,6 +620,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478209">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Kunst und Religion</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">art and religion</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478519"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478365"/>
@@ -640,6 +659,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478247">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Poesie vs. Philosophie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">poetry vs. philosophy</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478332"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478532"/>
@@ -667,6 +687,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478288">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Stilistik der Künste</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">stylistics of the arts</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:topConceptOf rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478347"/>
@@ -695,6 +716,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478196">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Traum und Kunst</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">dream and art</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478329"/>
         <skos:topConceptOf rdf:resource="https://schleiermacher-digital.de/skos"/>
@@ -724,6 +746,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478279">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Identität und Differenz der Künste</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">identity and difference of the arts</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478358"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478434"/>
@@ -778,6 +801,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478199">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Das Schöne und das Erhabene</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">the beautiful and the sublime</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478166"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478155"/>
@@ -798,6 +822,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478205">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Die Phasen der künstlerischen Praxis</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">the phases of artistic practice</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478566"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478434"/>
@@ -856,6 +881,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478259">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Das Ideale und das Antiideale</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">the ideal and the anti-ideal</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478554"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478155"/>
@@ -901,6 +927,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478219">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Phantasie und Vernunft</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">fantasy and reason</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:topConceptOf rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:narrower rdf:resource="https://schleiermacher-digital.de/skos/S9478339"/>
@@ -918,27 +945,14 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Aesthetik</skos:prefLabel>
         <skos:prefLabel xml:lang="en">aesthetics</skos:prefLabel>
+        <skos:altLabel xml:lang="el">αἴσθησις</skos:altLabel>
+        <skos:altLabel xml:lang="la">aisthesis</skos:altLabel>
         <skos:altLabel xml:lang="de">Ästhetik</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q35986"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q35986"/>
         <skos:relatedMatch rdf:resource="http://d-nb.info/gnd/4000626-8"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478293">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="el">αἴσθησις</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">aisthesis</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
-        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q35986"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478449">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Dichtkunst</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
-        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478289">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -970,7 +984,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q17737"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q17737"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478390">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -978,7 +992,7 @@
         <skos:prefLabel xml:lang="en">perception</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q160402"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q160402"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478337">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -996,7 +1010,7 @@
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478247"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q336"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q336"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478349">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1025,7 +1039,7 @@
         <skos:prefLabel xml:lang="en">sensuality</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q1195509"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q1195509"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478358">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1049,6 +1063,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Einzelne</skos:prefLabel>
         <skos:prefLabel xml:lang="en">individual</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Individuum</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478184"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
@@ -1330,15 +1345,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q1056332"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478170">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Individuum</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">individual</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
-        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
-        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q1056332"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478173">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1416,7 +1423,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478496">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">pathematisch</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">pathematical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pathematical (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
@@ -1529,7 +1536,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Stimmung</skos:prefLabel>
         <skos:prefLabel xml:lang="en">mood</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos/"/>
+        <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478279"/>
@@ -1567,7 +1574,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q735"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q735"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478172">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1610,7 +1617,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478219"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q178354"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q178354"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478470">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1672,7 +1679,7 @@
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478209"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q7087"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q7087"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478422">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1728,7 +1735,7 @@
         <skos:altLabel xml:lang="de">Sittenlehre</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q9465"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q9465"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478500">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1761,7 +1768,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478209"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q1518315"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q1518315"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478448">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1774,14 +1781,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">populär</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
-        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478183">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Individuelle</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">individual</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
-        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478192"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478543">
@@ -1857,7 +1856,7 @@
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478262"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478209"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q9174"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q9174"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478535">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1871,7 +1870,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478419">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">religiös</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">religious</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">religious (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478209"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478288"/>
@@ -2018,7 +2017,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478209"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q5043"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q5043"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478415">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2038,7 +2037,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478142">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">geschichtlich</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">historical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">historical (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
@@ -2064,7 +2063,7 @@
         <skos:prefLabel xml:lang="en">mythology</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q9134"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q9134"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478345">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2083,7 +2082,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478515">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">politisch</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">political</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">political (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
     </skos:Concept>
@@ -2118,7 +2117,7 @@
         <skos:prefLabel xml:lang="en">art history</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q50637"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q50637"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478352">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2155,7 +2154,7 @@
         <skos:prefLabel xml:lang="en">reformation</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478268"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q12562"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q12562"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478569">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2224,9 +2223,11 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">Poesie</skos:prefLabel>
         <skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Dichtkunst</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478247"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478196"/>
+        <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478373">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2257,7 +2258,7 @@
         <skos:prefLabel xml:lang="en">symbol</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478247"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q80071"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q80071"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478259"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478357">
@@ -2281,7 +2282,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478288"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478199"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q999803"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q999803"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478350">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2316,7 +2317,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478308">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">komisch</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">comic</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">comic (adj.)</skos:prefLabel>
         <skos:altLabel xml:lang="de">comisch</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478288"/>
@@ -2362,7 +2363,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478126">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">zierlich</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">dainty</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">dainty (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478288"/>
     </skos:Concept>
@@ -2379,7 +2380,7 @@
         <skos:prefLabel xml:lang="en">arabesque</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478196"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q186599"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q186599"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478463">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2672,7 +2673,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478279"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478205"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q185030"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q185030"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478416">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2695,7 +2696,7 @@
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478279"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478205"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q214970"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q214970"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478563">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2769,7 +2770,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478564">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">eigenthümlich</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">peculiar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">peculiar (adj.)</skos:prefLabel>
         <skos:altLabel xml:lang="de">eigentümlich</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478259"/>
@@ -2790,12 +2791,12 @@
         <skos:prefLabel xml:lang="de">Mimesis</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q468427"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q468427"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478360">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">ideal</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">ideal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ideal (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478184"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478259"/>
@@ -2831,7 +2832,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478443">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">real</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">real</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">real (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478259"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478184"/>
@@ -2880,7 +2881,7 @@
         <skos:altLabel xml:lang="de">Redekunst</skos:altLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q81009"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q81009"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478418">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2888,7 +2889,7 @@
         <skos:prefLabel xml:lang="en">poetics</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478260"/>
-        <skos:relatedMatch rdf:resource="https://www.wikidata.org/wiki/Q835023"/>
+        <skos:relatedMatch rdf:resource="http://www.wikidata.org/entity/Q835023"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9478421">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2968,7 +2969,7 @@
     <skos:Concept rdf:about="https://schleiermacher-digital.de/skos/S9356778">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="de">symbolisch</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">symbolic</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">symbolic (adj.)</skos:prefLabel>
         <skos:inScheme rdf:resource="https://schleiermacher-digital.de/skos"/>
         <skos:broader rdf:resource="https://schleiermacher-digital.de/skos/S9478259"/>
     </skos:Concept>
