@@ -14,7 +14,7 @@ Entwickelt von [TELOTA](http://www.bbaw.de/telota), der DH-Arbeitsgruppe der Ber
 
 ## Zitierhinweis
 
-Klappenbach, Lou (2024): ediarum.SKOS.edit (v1.0.0).
+Klappenbach, L. (2024). ediarum.SKOS.edit (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.13939422
 
 ## Lizenz
 
