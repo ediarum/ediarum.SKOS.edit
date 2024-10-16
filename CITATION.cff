@@ -8,7 +8,7 @@ abstract: "ediarum.SKOS.edit is an oXygen framework for the creation and managem
 type: software
 date-released: "2024-08-02"
 version: 1.0.0
-repository-code: "https://github.com/ediarum/ediarum.SKOS.edit"
+repository-code: "https://doi.org/10.5281/zenodo.13939422"
 identifiers:
   - description: "All versions of ediarum.SKOS.edit in Zenodo"
     type: doi
