@@ -20,7 +20,6 @@
         <https://schleiermacher-digital.de/skos/S2853434>,
         <https://schleiermacher-digital.de/skos/S3786610>,
         <https://schleiermacher-digital.de/skos/S4155496>,
-        <https://schleiermacher-digital.de/skos/S4620872>,
         <https://schleiermacher-digital.de/skos/S4818188>,
         <https://schleiermacher-digital.de/skos/S5660592>,
         <https://schleiermacher-digital.de/skos/S7026987>,
@@ -105,7 +104,6 @@
         <https://schleiermacher-digital.de/skos/S9478332>,
         <https://schleiermacher-digital.de/skos/S9478336>,
         <https://schleiermacher-digital.de/skos/S9478337>,
-        <https://schleiermacher-digital.de/skos/S9478338>,
         <https://schleiermacher-digital.de/skos/S9478339>,
         <https://schleiermacher-digital.de/skos/S9478340>,
         <https://schleiermacher-digital.de/skos/S9478343>,
@@ -273,7 +271,8 @@
         <https://schleiermacher-digital.de/skos/S9478569>,
         <https://schleiermacher-digital.de/skos/S9478570>,
         <https://schleiermacher-digital.de/skos/S9478571> ;
-    skos:prefLabel "Wörter und Begriffe"@de .
+    skos:prefLabel "Wörter und Begriffe"@de,
+        "Words and Concepts"@en .
 
 <https://schleiermacher-digital.de/skos/S7852481> a skos:Collection ;
     skos:definition """Im Rahmen des Thesaurus wird ein Thema als ein inhaltlicher
@@ -299,7 +298,10 @@
         <https://schleiermacher-digital.de/skos/S9478268>,
         <https://schleiermacher-digital.de/skos/S9478279>,
         <https://schleiermacher-digital.de/skos/S9478288> ;
-    skos:prefLabel "Themen"@de .
+    skos:prefLabel "Themen"@de,
+        "Topics"@en .
+
+<https://schleiermacher-digital.de/skos/S4620872> skos:broader <https://schleiermacher-digital.de/skos/S9478184> .
 
 <https://schleiermacher-digital.de/skos/S9478146> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192> ;
@@ -394,15 +396,11 @@
     skos:prefLabel "natürlich"@de,
         "natural"@en .
 
-<https://schleiermacher-digital.de/skos/S4620872> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "Nachbild"@de .
-
 <https://schleiermacher-digital.de/skos/S4818188> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "populär"@de .
+    skos:prefLabel "populär"@de,
+        "popular"@en .
 
 <https://schleiermacher-digital.de/skos/S5660592> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
@@ -427,7 +425,8 @@
     skos:broader <https://schleiermacher-digital.de/skos/S9478262> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "pathema"@de,
-        "πάθημα"@el .
+        "πάθημα"@el,
+        "passion"@en .
 
 <https://schleiermacher-digital.de/skos/S9356778> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
@@ -436,6 +435,8 @@
         "symbolic (adj.)"@en .
 
 <https://schleiermacher-digital.de/skos/S9439407> a skos:Concept ;
+    skos:altLabel "Abbild"@de,
+        "Nachbild"@de ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Ebenbild"@de,
@@ -451,7 +452,7 @@
     skos:broader <https://schleiermacher-digital.de/skos/S9478259> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Kunstvollkommenheit"@de,
-        "art perfection"@en .
+        "artistic perfection"@en .
 
 <https://schleiermacher-digital.de/skos/S9478133> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478205> ;
@@ -673,12 +674,6 @@
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "streng"@de,
         "severe"@en .
-
-<https://schleiermacher-digital.de/skos/S9478338> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "ars"@de,
-        "ars"@la .
 
 <https://schleiermacher-digital.de/skos/S9478345> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478268> ;
@@ -1192,13 +1187,6 @@
     skos:prefLabel "Zwecklosigkeit"@de,
         "purposelessness"@en .
 
-<https://schleiermacher-digital.de/skos/S2460831> a skos:Concept ;
-    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
-        <https://schleiermacher-digital.de/skos/S9478192> ;
-    skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:prefLabel "Kunst"@de,
-        "art"@en .
-
 <https://schleiermacher-digital.de/skos/S4155496> a skos:Concept ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478262> ;
@@ -1639,6 +1627,15 @@
     skos:prefLabel "moralisch"@de,
         "moral"@en .
 
+<https://schleiermacher-digital.de/skos/S2460831> a skos:Concept ;
+    skos:altLabel "ars"@la ;
+    skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
+        <https://schleiermacher-digital.de/skos/S9478192>,
+        <https://schleiermacher-digital.de/skos/S9478260> ;
+    skos:inScheme <https://schleiermacher-digital.de/skos> ;
+    skos:prefLabel "Kunst"@de,
+        "art"@en .
+
 <https://schleiermacher-digital.de/skos/S2853434> a skos:Concept ;
     skos:altLabel "Tätigkeit"@de ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478184>,
@@ -1779,8 +1776,7 @@
     skos:relatedMatch <http://www.wikidata.org/entity/Q160402> .
 
 <https://schleiermacher-digital.de/skos/S9478404> a skos:Concept ;
-    skos:altLabel "Fantasie"@de,
-        "imagination"@en ;
+    skos:altLabel "Fantasie"@de ;
     skos:broader <https://schleiermacher-digital.de/skos/S9478192>,
         <https://schleiermacher-digital.de/skos/S9478196>,
         <https://schleiermacher-digital.de/skos/S9478219> ;
@@ -1952,7 +1948,8 @@
     skos:broader <https://schleiermacher-digital.de/skos/S9478260> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "Mimesis"@de,
-        "μίμησις"@el ;
+        "μίμησις"@el,
+        "mimesis"@en ;
     skos:related <http://www.wikidata.org/entity/Q468427> ;
     skos:relatedMatch <http://www.wikidata.org/entity/Q468427> .
 
@@ -2099,7 +2096,8 @@
         <https://schleiermacher-digital.de/skos/S9478260> ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
     skos:prefLabel "techne"@de,
-        "τέχνη"@el ;
+        "τέχνη"@el,
+        "technique"@en ;
     skos:related <http://www.wikidata.org/entity/Q735> ;
     skos:relatedMatch <http://www.wikidata.org/entity/Q735> .
 
@@ -2501,7 +2499,8 @@
 
 <https://schleiermacher-digital.de/skos/S9478260> a skos:Concept ;
     skos:inScheme <https://schleiermacher-digital.de/skos> ;
-    skos:narrower <https://schleiermacher-digital.de/skos/S9478138>,
+    skos:narrower <https://schleiermacher-digital.de/skos/S2460831>,
+        <https://schleiermacher-digital.de/skos/S9478138>,
         <https://schleiermacher-digital.de/skos/S9478142>,
         <https://schleiermacher-digital.de/skos/S9478155>,
         <https://schleiermacher-digital.de/skos/S9478156>,
@@ -2514,7 +2513,6 @@
         <https://schleiermacher-digital.de/skos/S9478320>,
         <https://schleiermacher-digital.de/skos/S9478332>,
         <https://schleiermacher-digital.de/skos/S9478337>,
-        <https://schleiermacher-digital.de/skos/S9478338>,
         <https://schleiermacher-digital.de/skos/S9478349>,
         <https://schleiermacher-digital.de/skos/S9478358>,
         <https://schleiermacher-digital.de/skos/S9478390>,
